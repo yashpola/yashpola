@@ -1,16 +1,33 @@
-### Hi there 👋
+<div align="center">
 
-<!--
-**yashpola/yashpola** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Hello, my name's Yash :) 🐈
 
-Here are some ideas to get you started:
+<a href="https://www.linkedin.com">
+    <img src="https://raw.githubusercontent.com/twbs/icons/main/icons/linkedin.svg" width="25px" alt="linkedin" />
+</a>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
+
+<hr />
+
+<a href="https://github.com/yashpola/NUSExams">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=yashpola&repo=NUSExams" align="right"/>
+</a>
+
+### I have worked with:
+
+**Languages:**
+
+<span>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg" width="45px" alt="java" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="45px" alt="javascript" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" width="45px" alt="python" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="45px" alt="go" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" height="35px" alt="latex" />
+</span>
+
+<br />
+<br />
+
+
+
