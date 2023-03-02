@@ -17,8 +17,6 @@ Hello, my name's Yash :) 🐈
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=yashpola&repo=NUSExams" align="right"/>
 </a>
 
-### I have worked with:
-
 **Languages:**
 
 <span>
@@ -32,7 +30,7 @@ Hello, my name's Yash :) 🐈
 <br />
 <br />
 
-### I like: 
+**Interests:** 
 
 <span> 
 <img src="https://img.freepik.com/premium-vector/headphone-icon-illustration_17146-29.jpg?w=2000" width="120px" alt="music"/> 
