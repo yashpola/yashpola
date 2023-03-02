@@ -1,6 +1,6 @@
 <div align="center">
 
-Hello, my name's Yash :) 🐈
+Hello, my name's Yash :) 🥂
 
 <a href="https://www.linkedin.com/in/yashwit-polapragada-7a507923a/">
     <img src="https://raw.githubusercontent.com/twbs/icons/main/icons/linkedin.svg" width="25px" alt="linkedin" />
