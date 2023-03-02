@@ -19,11 +19,11 @@ Hello, my name's Yash :) 🐈
 **Languages:**
 
 <span>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg" width="45px" alt="java" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="45px" alt="javascript" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" width="45px" alt="python" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="45px" alt="go" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" height="35px" alt="latex" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg" width="100px" alt="java" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="100px" alt="javascript" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" width="100px" alt="python" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="100px" alt="c" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" height="60px" alt="latex" />
 </span>
 
 <br />
@@ -32,9 +32,9 @@ Hello, my name's Yash :) 🐈
 ### I like: 
 
 <span> 
-<img src="https://www.nicepng.com/png/detail/1-10393_png-file-svg-music-icon-free-png.png" width="45px" alt="music"/> 
-<img src="https://png.pngtree.com/png-vector/20211209/ourlarge/pngtree-car-icon-png-image_4053347.png" width="45px" alt="cars"/> 
-<img src="https://cdn-icons-png.flaticon.com/512/4221/4221419.png" width="45px" alt="movies"/> 
+<img src="https://img.freepik.com/premium-vector/headphone-icon-illustration_17146-29.jpg?w=2000" width="120px" alt="music"/> 
+<img src="https://st2.depositphotos.com/1496387/9453/v/950/depositphotos_94538622-stock-illustration-steering-wheel-icon.jpg" width="120px" alt="driving"/> 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2raT4ER42E5kwCYViMhn9tD6L3LKxAGtcKg&usqp=CAU" width="120px" alt="movies"/> 
 </span> 
 
 
