@@ -2,7 +2,7 @@
 
 Hello, my name's Yash :) 🐈
 
-<a href="https://www.linkedin.com">
+<a href="https://www.linkedin.com/in/yashwit-polapragada-7a507923a/">
     <img src="https://raw.githubusercontent.com/twbs/icons/main/icons/linkedin.svg" width="25px" alt="linkedin" />
 </a>
 
@@ -28,6 +28,14 @@ Hello, my name's Yash :) 🐈
 
 <br />
 <br />
+
+### I like: 
+
+<span> 
+<img src="https://www.nicepng.com/png/detail/1-10393_png-file-svg-music-icon-free-png.png" width="45px" alt="music"/> 
+<img src="https://png.pngtree.com/png-vector/20211209/ourlarge/pngtree-car-icon-png-image_4053347.png" width="45px" alt="cars"/> 
+<img src="https://cdn-icons-png.flaticon.com/512/4221/4221419.png" width="45px" alt="movies"/> 
+</span> 
 
 
 
