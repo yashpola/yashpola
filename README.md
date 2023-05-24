@@ -18,11 +18,11 @@ Hello, my name's Yash :) 🥂
 <span>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg" width="90px" alt="java" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="90px" alt="javascript" />
-
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="90px" alt="html5" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="90px" alt="css3" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="90px" alt="react" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="90px" alt="html" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="90px" alt="html" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" height="60px" alt="latex" />
 </span>
 
 <br />
