@@ -13,15 +13,12 @@ Hello, my name's Yash :) 🥂
 
 <hr />
 
-<a href="https://github.com/yashpola/NUSExams">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=yashpola&repo=NUSExams" align="right"/>
-</a>
-
 **Tech Stack:**
 
 <span>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg" width="90px" alt="java" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="90px" alt="javascript" />
+
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="90px" alt="react" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="90px" alt="html" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="90px" alt="html" />
