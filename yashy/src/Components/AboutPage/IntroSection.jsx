@@ -1,5 +1,5 @@
 import { Paper, Avatar, List, ListItem } from "@mui/material";
-import me from "../me.JPG";
+import me from "../../me.JPG";
 
 export default function IntroSection() {
   return (

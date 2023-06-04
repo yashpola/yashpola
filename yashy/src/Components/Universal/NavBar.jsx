@@ -1,7 +1,7 @@
 import { Routes, Route, NavLink } from "react-router-dom";
-import AboutPage from "./AboutPage";
-import MediaThoughts from "./MediaThoughts";
-import PortfolioPage from "./PortfolioPage";
+import AboutPage from "../AboutPage/AboutPage";
+import MediaThoughts from "../BlogPage/MediaThoughts";
+import PortfolioPage from "../PortfolioPage/PortfolioPage";
 import NoPage from "./NoPage";
 import { Stack } from "@mui/material";
 

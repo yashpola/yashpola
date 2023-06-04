@@ -8,9 +8,7 @@ export default function MovieThoughts() {
       <Card
         sx={{
           margin: "auto",
-          marginTop: 5,
-          fontSize: 40,
-          textDecoration: "underline",
+          fontSize: 45,
         }}
         elevation={0}
       >

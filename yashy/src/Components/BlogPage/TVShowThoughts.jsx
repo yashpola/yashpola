@@ -1,5 +1,5 @@
 import { Card, Grid, Paper } from "@mui/material";
-import ReviewCard from "./CurrentReviewCard";
+import CurrentReviewCard from "./CurrentReviewCard";
 import UpcomingReviewCard from "./UpcomingReviewCard";
 
 export default function TVShowThoughts() {
@@ -8,9 +8,7 @@ export default function TVShowThoughts() {
       <Card
         sx={{
           margin: "auto",
-          marginTop: 5,
-          fontSize: 40,
-          textDecoration: "underline",
+          fontSize: 45,
         }}
         elevation={0}
       >
@@ -27,21 +25,21 @@ export default function TVShowThoughts() {
         >
           Current Reviews
         </Paper>
-        <ReviewCard
+        <CurrentReviewCard
           title="Breaking Bad (2008) | Vince Gilligan & Peter Gould"
           quote=""
           review=""
           rating="10/10"
           trivia="Vince Gilligan had intended to kill off Jesse Pinkman in the first season before it was deemed that Cranston and Paul's chemistry was invaluable"
         />
-        <ReviewCard
+        <CurrentReviewCard
           title="Mad Men (2007) | Matthew Weiner"
           quote=""
           review="aojfoa"
           rating="8/10"
           trivia="Jon Hamm and Bryan Cranston had actually met on set during the filming of their shows in the AMC studio. Cranston compared the apron and underwear he was wearing to Hamm's tailored suit and remarked that it was obvious who had the better agent."
         />
-        <ReviewCard
+        <CurrentReviewCard
           title="Suits (2012) | Aaron Korsh"
           quote=""
           review=""

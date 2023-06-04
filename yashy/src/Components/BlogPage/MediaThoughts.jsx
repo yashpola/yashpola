@@ -1,9 +1,7 @@
 import MovieThoughts from "./MovieThoughts";
 import TVShowThoughts from "./TVShowThoughts";
-import Box from "@mui/material/Box";
-import { SpeedDialIcon } from "@mui/material";
-import SpeedDial from "@mui/material/SpeedDial";
-import SpeedDialAction from "@mui/material/SpeedDialAction";
+import DefaultBlogPage from "./DefaultBlogPage";
+import { SpeedDialIcon, SpeedDial, SpeedDialAction } from "@mui/material";
 import { Movie, LiveTv } from "@mui/icons-material";
 import { useState } from "react";
 
@@ -21,7 +19,7 @@ const actions = [
 ];
 
 export default function MediaThoughts() {
-  const [movieThoughts, setMovieThoughts] = useState(true);
+  const [movieThoughts, setMovieThoughts] = useState(false);
   const [tvShowThoughts, setTVShowThoughts] = useState(false);
 
   function handleToggle(operation) {
@@ -36,6 +34,7 @@ export default function MediaThoughts() {
 
   return (
     <>
+      {!movieThoughts && !tvShowThoughts && <DefaultBlogPage />}
       {movieThoughts && <MovieThoughts />}
       {tvShowThoughts && <TVShowThoughts />}
       <SpeedDial
