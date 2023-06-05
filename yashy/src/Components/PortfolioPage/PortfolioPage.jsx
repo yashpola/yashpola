@@ -15,6 +15,8 @@ export default function PortfolioPage() {
         elevation={0}
       >
         Projects
+        <br />
+        <p style={{ fontSize: "20px" }}>Will be updated as they come!</p>
       </Card>
       <Grid container spacing={2}>
         <Grid item xs={6}>
