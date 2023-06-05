@@ -1,6 +1,6 @@
 import { Grid, Card } from "@mui/material";
 import ProjectCard from "./ProjectCard";
-import MoreToCome from "./MoreToCome";
+import ComingSoonCard from "../Universal/ComingSoonCard";
 
 export default function PortfolioPage() {
   return (
@@ -29,7 +29,7 @@ export default function PortfolioPage() {
           />
         </Grid>
         <Grid item xs={6}>
-          <MoreToCome numCards={2} />
+          <ComingSoonCard numCards={2} />
         </Grid>
       </Grid>
     </>

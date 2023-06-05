@@ -38,7 +38,7 @@ export default function MediaThoughts() {
       {movieThoughts && <MovieThoughts />}
       {tvShowThoughts && <TVShowThoughts />}
       <SpeedDial
-        ariaLabel="SpeedDial basic example"
+        ariaLabel="SpeedDial Basic"
         sx={{ position: "absolute", bottom: 16, right: 16 }}
         icon={<SpeedDialIcon />}
       >

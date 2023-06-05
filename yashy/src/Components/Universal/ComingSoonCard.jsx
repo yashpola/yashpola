@@ -1,6 +1,6 @@
 import { Card } from "@mui/material";
 
-export default function MoreToCome({ numCards }) {
+export default function ComingSoonCard({ numCards }) {
   const widthCard = 100 / { numCards };
   return (
     <Card
@@ -12,7 +12,7 @@ export default function MoreToCome({ numCards }) {
       }}
       elevation={10}
     >
-      More to come...
+      Coming soon...
     </Card>
   );
 }

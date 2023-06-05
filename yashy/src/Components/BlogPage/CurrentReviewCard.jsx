@@ -4,7 +4,7 @@ import { ExpandMore } from "@mui/icons-material";
 export default function CurrentReviewCard({
   title,
   quote,
-  review,
+  thoughts,
   rating,
   trivia,
 }) {
@@ -27,10 +27,15 @@ export default function CurrentReviewCard({
       >
         {title}
       </AccordionSummary>
-      <AccordionDetails>
+      <AccordionDetails
+        sx={{
+          fontFamily: "Roboto",
+        }}
+      >
         <p style={{ textAlign: "center" }}>"{quote}"</p>
-        Review: <br />
-        {review}
+        Thoughts: <br />
+        {thoughts}
+        <br />
         <br />
         Verdict: {rating}
         <br />

@@ -1,6 +1,7 @@
 import { Card, Grid, Paper } from "@mui/material";
 import CurrentReviewCard from "./CurrentReviewCard";
 import UpcomingReviewCard from "./UpcomingReviewCard";
+import TVShowPosts from "./Posts/TVShowPosts";
 
 export default function TVShowThoughts() {
   return (
@@ -26,25 +27,11 @@ export default function TVShowThoughts() {
           Current Reviews
         </Paper>
         <CurrentReviewCard
-          title="Breaking Bad (2008) | Vince Gilligan & Peter Gould"
-          quote=""
-          review=""
-          rating="10/10"
-          trivia="Vince Gilligan had intended to kill off Jesse Pinkman in the first season before it was deemed that Cranston and Paul's chemistry was invaluable"
-        />
-        <CurrentReviewCard
-          title="Mad Men (2007) | Matthew Weiner"
-          quote=""
-          review="aojfoa"
-          rating="8/10"
-          trivia="Jon Hamm and Bryan Cranston had actually met on set during the filming of their shows in the AMC studio. Cranston compared the apron and underwear he was wearing to Hamm's tailored suit and remarked that it was obvious who had the better agent."
-        />
-        <CurrentReviewCard
-          title="Suits (2012) | Aaron Korsh"
-          quote=""
-          review=""
-          rating="7/10"
-          trivia=""
+          title={TVShowPosts.Suits.title}
+          quote={TVShowPosts.Suits.quote}
+          thoughts={TVShowPosts.Suits.thoughts}
+          rating={TVShowPosts.Suits.rating}
+          trivia={TVShowPosts.Suits.trivia}
         />
       </Grid>
       <Grid item xs={12}>
@@ -59,9 +46,9 @@ export default function TVShowThoughts() {
         >
           Upcoming Reviews
         </Paper>
-        <UpcomingReviewCard title="House of Cards (2013) | Beau Willimon" />
-        <UpcomingReviewCard title="Barry (2018) | Bill Hader" />
-        <UpcomingReviewCard title="Succession (2018) | Jesse Armstrong" />
+        <UpcomingReviewCard title={TVShowPosts.MadMen.title} />
+        <UpcomingReviewCard title={TVShowPosts.BreakingBad.title} />
+        <UpcomingReviewCard title="House of Cards (2013) | Beau Willimon | Kevin Spacey, Robin Wright" />
       </Grid>
     </Grid>
   );
