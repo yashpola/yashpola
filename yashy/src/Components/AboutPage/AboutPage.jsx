@@ -17,7 +17,14 @@ export default function AboutPage() {
             orientation="vertical"
             flexItem
           ></Divider>
-          <Grid item xs={12} sm={5}>
+          <Grid
+            item
+            xs={12}
+            sm={5}
+            sx={{
+              margin: "auto",
+            }}
+          >
             <ProfessionalContactCard />
             <PersonalContactCard />
           </Grid>

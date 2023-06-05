@@ -3,7 +3,7 @@ import { Construction, LinkedIn, Email, GitHub } from "@mui/icons-material";
 
 export default function ProfessionalContactCard() {
   return (
-    <Card sx={{ marginTop: 15 }}>
+    <Card>
       <Paper
         sx={{
           backgroundColor: "#E9BEBE",

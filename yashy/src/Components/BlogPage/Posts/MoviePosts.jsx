@@ -4,9 +4,9 @@ const MoviePosts = {
       "Inglourious Bastards (2009) | Quentin Tarantino | Brad Pitt, Christoph Waltz, Michael Fassbender",
     quote: "I think this might just be my masterpiece",
     thoughts: `What worked extremely well for this movie is that it fully embraces itself as an anti-Nazi revisionist
-            revenge fantasy. Specifically through a cathartic comeuppance of
+            revenge fantasy. Specifically through the cathartic comeuppance of
             Col. Hans Landa (Christoph Waltz) of the SchutzStaffel; a "Jew Hunter" who takes pleasure in exerting power
-            over those who have none. Importantly, Tarantino does not force the catharsis by exploiting Holocaust tragedy.
+            over those who have none. Importantly, Tarantino does not force catharsis by exploiting Holocaust tragedy.
             Instead, he builds tension through setting up the meticuluous, cunning, cruel, seemingly immovable Landa against
             the violent, Nazi-despising, unstoppable force of Lt. Aldo Raine (Brad Pitt). The movie thus centers itself
             around the inevitable clash between Landa and Raine, and this I feel is what elevates it beyond generic 
@@ -15,12 +15,12 @@ const MoviePosts = {
             attention to detail. How many movies do we watch that invent miracles
             out of faulty logic to protect their protagonists? In this one though, Michael Fassbender's Lt. Wicox and a couple of
             the other Basterds die because Wicox blew his cover from not knowing the German way to sign 3 (use thumbs!). 
-            Bridget von Hammersmark (Diane Kruger) dies, and Raine and Pt. Utevich (BJ Novak) get captured because Landa called their 
+            Lt. Raine and Pt. Utevich (BJ Novak) get captured because Col. Landa called their 
             absurd bluff of being Italian in origin. Even something as basic as a movie being based in Nazi Germany having
-            70% of its dialog in German and French signals to so much more depth of characterization in a war movie. 
+            70% of its dialog in German and French signals so much more depth of characterization in a war movie. 
             Sure, war movies can be great even through just giving voices to our American freedom-fighters, and dehumanizing
             the enemy. But the catharsis of anti-Nazi revenge is that much sweeter when the Nazis have meaningful speaking
-            roles and characters, and we see every bit of light in their life evaporate. For a closing thought, in the lasting words of Lt. Aldo
+            roles and characters, and we then see every bit of light in their life evaporate. For a closing thought, in the lasting words of Lt. Aldo
             Raine: 'Bonjyuur-no'`,
     rating: `9/10. The only ding I would give this
     movie is that I found Pt. Zoller's (Daniel Bruhl) character somewhat of a misplaced distraction to the focal point 
@@ -29,7 +29,7 @@ const MoviePosts = {
     fluff up their supposed heroism`,
     trivia: `Tarantino almost did not go through with this movie due to not finding a German-speaking actor who 
             could also pull off the role of Hans Landa. Fortunately he found one in the form of Christoph Waltz (who could 
-            also speak French fluently), who won an Oscar for the role.`,
+            also speak French fluently), who then won an Oscar for the role.`,
   },
   TrainingDay: {
     title:
@@ -37,7 +37,7 @@ const MoviePosts = {
     quote: "King Kong ain't got shit on me!",
     thoughts: `I did not know going into this movie that it was about police corruption. However, this worked brilliantly because 
                as the events unfolded, I truly shared Jake Hoyt's (Ethan Hawke) rising sense of suspicion and horror towards
-               his training officer Det. Alonzo Harris (Denzel Washington). Apropos of that, Washington delivered an 
+               his bent training officer Det. Alonzo Harris (Denzel Washington). Apropos of that, Washington delivered an 
                effortlessly slick performance as usual, easing gracefully into the role of a corrupt detective who 
                commands respect, but is really a yard bully who deserves only to have his gross facade blown wide open. 
                The rookie-veteran chemistry between Hawke and Washington was of the essence to the success of the 
@@ -51,14 +51,14 @@ const MoviePosts = {
                fuelling their gangsterism. This makes the ending more poignant, when the community actually sides with a 
                police officer, again because Harris is wrong in believing that deep down the whole world is as ugly as he is. While the plot 
                - supposedly partially based on a true story - and themes themselves are simple, it is rewarding to see
-              the innocent virtuosity of Jake Hoyt persist in the face of torture (yes, literally) and betrayal. A
+              the innocent virtuosity of Jake Hoyt persist in the face of torture (yes, literally) and betrayal. Interestingly, a
               contrivance often criticized of Training Day is that a girl who Jake saved from being raped in the beginning was conveniently the 
-              cousin of a gangster whom is enlisted by Harris to kill Jake, thus saving him in the last minute. I don't 
-              agree that this is a contrivance, as Harris only got the idea of using those gangsters to get Jake killed
-              if necessary, after the girl mentions that she's connected to them. It's a subtle butterfly effect, but 
-              important to the plot - because it is another way of rewarding Jake for actually acting like a cop and 
+              cousin of a gangster who is enlisted by Harris to kill Jake, thus saving him in the last minute. I don't 
+              agree that this is a contrivance. In fact, I see it as a subtle butterfly effect,  
+              important to the overall theme - because it is another way of rewarding Jake for actually acting like a cop and 
               saving the girl, against Alonzo's persuasion to ignore street-crimes like theft, rape, and the like.`,
-    rating: `I give this movie 7.5/10 because it is a simple story that is carried by very compellingly acted characters`,
+    rating: `I give this movie 7.5/10 because it is a simple story that is carried by very compellingly acted characters. I
+    doubt I would have as much fun watching it if not for Denzel and Hawke`,
     trivia:
       "Tobey Maguire, Mark Wahlberg, and Eminem were also considered for the role of Jake Hoyt",
   },

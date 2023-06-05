@@ -12,10 +12,10 @@ const MoviePosts = {
                season-long story arcs that often compromised depth of character. However, I feel that this is as valid as choice as remaining as a raw legal drama. 
                It is certainly not easy to make a show that is as entertaining as Suits is, and also stay true to the
                endless drudgery and waiting-game that real life law is. An inescapable gripe I had with the show though is that 
-               the character Donna (Sarah Rafferty), developed (or lack thereof) in a very repulsive way 
-               as the show progressed. Donna became untouchable as the show went on, and acted in ways that would make 
-               her a social pariah in real life (although to be fair this could be said for a lot of characters). However, 
-               ignoring her, the emotional development of the initially narcisstic and stoic Harvey Specter (Gabriel Macht), 
+               the way several characters act would very quickly make them social pariahs in real life. Something I 
+               deeply enjoyed while watching Mad Men which I wished Suits had was the very concrete portrayal of characters, in 
+               ways that open up meaningful discussion about how the characters drove the plot and vice versa. However, 
+               I do credit that the emotional development of the initially narcisstic and stoic Harvey Specter (Gabriel Macht), 
                is one of the best I've seen in a show. While it could be argued that Specter still remained seemingly all-powerful and needlessly
                aggressive to the end, the portrayal of his emotional struggles with his deeply-embedded issues with his 
                mom was biting. All in all, while Suits may not hold up well in comparison to giants like Breaking Bad & Mad Men, 
