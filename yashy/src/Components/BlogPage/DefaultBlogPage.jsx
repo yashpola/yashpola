@@ -1,4 +1,5 @@
 import {
+  Avatar,
   Box,
   Button,
   FormControl,
@@ -12,14 +13,8 @@ import { TheaterComedy } from "@mui/icons-material";
 export default function DefaultBlogPage() {
   return (
     <>
-      <Grid
-        container
-        spacing={0}
-        direction="column"
-        justifyContent="center"
-        sx={{ minHeight: "100vh" }}
-      >
-        <Grid item xs={3}>
+      <Grid sx={{ margin: "auto" }} container spacing={2}>
+        <Grid item xs={12}>
           <Container
             sx={{
               backgroundColor: "#E9BEBE",
@@ -40,7 +35,7 @@ export default function DefaultBlogPage() {
               at the bottom right of this page to view either movie or tv
               thoughts!
               <br />
-              <TheaterComedy sx={{ width: 100, height: 100 }} />
+              <TheaterComedy sx={{ margin: "auto", width: 150, height: 150 }} />
             </Card>
           </Container>
         </Grid>

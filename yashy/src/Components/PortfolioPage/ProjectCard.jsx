@@ -9,13 +9,11 @@ export default function ProjectCard({
   testPassword,
   currentDocumentation,
 }) {
-  const widthCard = 100 / { numCards };
-
   return (
     <Card
       sx={{
-        width: "{widthCard}%",
-        margin: 5,
+        width: "50%",
+        margin: "auto",
         padding: 2,
       }}
       elevation={10}

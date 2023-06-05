@@ -19,7 +19,7 @@ export default function PortfolioPage() {
         <p style={{ fontSize: "20px" }}>Will be updated as they come!</p>
       </Card>
       <Grid container spacing={2}>
-        <Grid item xs={6}>
+        <Grid item xs={12}>
           <ProjectCard
             numCards={2}
             projectTitle="A.R.I.A."
@@ -29,9 +29,6 @@ export default function PortfolioPage() {
             testPassword="OrbitalTest123"
             currentDocumentation="https://docs.google.com/document/d/14tEVievtk629qVUgPXAYXe-7gqTgg7j2Rym7HW1WDfc/edit?usp=sharing"
           />
-        </Grid>
-        <Grid item xs={6}>
-          <ComingSoonCard numCards={2} />
         </Grid>
       </Grid>
     </>
