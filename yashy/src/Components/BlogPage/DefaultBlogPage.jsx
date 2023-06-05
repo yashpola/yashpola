@@ -37,7 +37,7 @@ export default function DefaultBlogPage() {
             >
               I document my (not spoiler-free!) brief thoughts here on the
               movies and tv shows I watch and plan to watch. Use the speed dial
-              at the bottom left of this page to view either movie or tv
+              at the bottom right of this page to view either movie or tv
               thoughts!
               <br />
               <TheaterComedy sx={{ width: 100, height: 100 }} />
