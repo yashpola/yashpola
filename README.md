@@ -29,6 +29,7 @@ Hello, my name's Yash :) 🥂
 **Interests:** 
 
 <span> 
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fgame-console_4236913&psig=AOvVaw0yjUgZcHjymEiCprTDtG9p&ust=1686100634913000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODVgL28rf8CFQAAAAAdAAAAABAE" width="120px" alt="games"/>
 <img src="https://img.freepik.com/premium-vector/headphone-icon-illustration_17146-29.jpg?w=2000" width="120px" alt="music"/> 
 <img src="https://st2.depositphotos.com/1496387/9453/v/950/depositphotos_94538622-stock-illustration-steering-wheel-icon.jpg" width="120px" alt="driving"/> 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2raT4ER42E5kwCYViMhn9tD6L3LKxAGtcKg&usqp=CAU" width="120px" alt="movies"/> 
