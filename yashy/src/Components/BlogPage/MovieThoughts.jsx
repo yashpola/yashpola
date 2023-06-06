@@ -54,9 +54,9 @@ export default function MovieThoughts() {
           >
             Upcoming
           </Paper>
-          <UpcomingReviewCard title="Casino (1995) | Martin Scorsese" />
-          <UpcomingReviewCard title="Scarface (1983) | Brian De Palma" />
-          <UpcomingReviewCard title="Se7en (1996) | David Fincher" />
+          <UpcomingReviewCard title="Casino (1995) | Martin Scorsese | Robert De Niro, Joe Pesci, Sharon Stone" />
+          <UpcomingReviewCard title="Scarface (1983) | Brian De Palma | Al Pacino, Michelle Pfeiffer" />
+          <UpcomingReviewCard title="Se7en (1996) | David Fincher | Brad Pitt, Morgan Freeman, Kevin Spacey" />
         </Grid>
       </Grid>
     </div>

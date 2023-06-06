@@ -1,7 +1,7 @@
 const MoviePosts = {
   Inglourious: {
     title:
-      "Inglourious Bastards (2009) | Quentin Tarantino | Brad Pitt, Christoph Waltz, Michael Fassbender",
+      "Inglourious Basterds (2009) | Quentin Tarantino | Brad Pitt, Christoph Waltz, Michael Fassbender",
     quote: "I think this might just be my masterpiece",
     thoughts: `What worked extremely well for this movie is that it fully embraces itself as an anti-Nazi revisionist
             revenge fantasy. Specifically through the cathartic comeuppance of
