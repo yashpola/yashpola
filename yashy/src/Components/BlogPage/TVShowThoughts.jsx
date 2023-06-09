@@ -6,15 +6,6 @@ import TVShowPosts from "./Posts/TVShowPosts";
 export default function TVShowThoughts() {
   return (
     <Grid container spacing={2}>
-      <Card
-        sx={{
-          margin: "auto",
-          fontSize: 45,
-        }}
-        elevation={0}
-      >
-        Yashy's TV Show Thoughts
-      </Card>
       <Grid item xs={12}>
         <Paper
           sx={{
@@ -24,7 +15,7 @@ export default function TVShowThoughts() {
           }}
           elevation={0}
         >
-          Current Reviews
+          Current Reviews (TV)
         </Paper>
         <CurrentReviewCard
           title={TVShowPosts.Suits.title}
@@ -44,11 +35,10 @@ export default function TVShowThoughts() {
           }}
           elevation={0}
         >
-          Upcoming Reviews
+          Upcoming Reviews (TV)
         </Paper>
         <UpcomingReviewCard title={TVShowPosts.MadMen.title} />
         <UpcomingReviewCard title={TVShowPosts.BreakingBad.title} />
-        <UpcomingReviewCard title="House of Cards (2013) | Beau Willimon | Kevin Spacey, Robin Wright" />
       </Grid>
     </Grid>
   );

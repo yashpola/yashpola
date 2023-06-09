@@ -7,15 +7,6 @@ export default function MovieThoughts() {
   return (
     <div id="thoughtsgrid">
       <Grid container spacing={2}>
-        <Card
-          sx={{
-            margin: "auto",
-            fontSize: 45,
-          }}
-          elevation={0}
-        >
-          Yashy's Movie Thoughts
-        </Card>
         <Grid item xs={12}>
           <Paper
             sx={{
@@ -25,7 +16,7 @@ export default function MovieThoughts() {
             }}
             elevation={0}
           >
-            Current
+            Current Reviews (Movies)
             <br />
           </Paper>
           <CurrentReviewCard
@@ -52,11 +43,10 @@ export default function MovieThoughts() {
             }}
             elevation={0}
           >
-            Upcoming
+            Upcoming Reviews (Movies)
           </Paper>
-          <UpcomingReviewCard title="Casino (1995) | Martin Scorsese | Robert De Niro, Joe Pesci, Sharon Stone" />
-          <UpcomingReviewCard title="Scarface (1983) | Brian De Palma | Al Pacino, Michelle Pfeiffer" />
-          <UpcomingReviewCard title="Se7en (1996) | David Fincher | Brad Pitt, Morgan Freeman, Kevin Spacey" />
+          <UpcomingReviewCard title="No Country for Old Men (2007) | Coen Brothers | Javier Bardem, Josh Brolin, Woody Harrelson" />
+          <UpcomingReviewCard title="Nocturnal Animals (2016) | Tom Ford | Jake Gyllenhaal, Amy Adams, Michael Shannon" />
         </Grid>
       </Grid>
     </div>
