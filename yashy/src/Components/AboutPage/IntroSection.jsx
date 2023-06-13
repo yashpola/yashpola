@@ -49,6 +49,7 @@ export default function IntroSection() {
             <a
               style={{ color: "red", textDecoration: "none" }}
               href="https://orbital.comp.nus.edu.sg/"
+              target="_blank"
             >
               Orbital @NUS School of Computing
             </a>
@@ -58,6 +59,7 @@ export default function IntroSection() {
             <a
               style={{ color: "red", textDecoration: "none" }}
               href="https://dsc.comp.nus.edu.sg/"
+              target="_blank"
             >
               @NUS Google Developer Student Clubs
             </a>
@@ -66,6 +68,7 @@ export default function IntroSection() {
             <a
               style={{ color: "red", textDecoration: "none" }}
               href="https://nuscollege.nus.edu.sg/academics/the-nusc-curriculum/impact-experience/"
+              target="_blank"
             >
               NUSC Community Impact Project
             </a>

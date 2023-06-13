@@ -21,6 +21,7 @@ export default function ProfessionalContactCard() {
           <a
             style={{ color: "red", textDecoration: "none" }}
             href="https://www.linkedin.com/in/yashwit-polapragada-7a507923a/"
+            target="_blank"
           >
             Linkedin
           </a>
@@ -33,6 +34,7 @@ export default function ProfessionalContactCard() {
           <a
             style={{ color: "red", textDecoration: "none" }}
             href="https://github.com/yashpola"
+            target="_blank"
           >
             GitHub
           </a>

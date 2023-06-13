@@ -21,6 +21,7 @@ export default function PersonalContactCard() {
           <a
             style={{ color: "red", textDecoration: "none" }}
             href="https://www.instagram.com/yashypola/"
+            target="_blank"
           >
             Instagram @yashypola
           </a>
@@ -30,6 +31,7 @@ export default function PersonalContactCard() {
           <a
             style={{ color: "red", textDecoration: "none" }}
             href="https://t.me/yashypola"
+            target="_blank"
           >
             Telegram @yashypola
           </a>
