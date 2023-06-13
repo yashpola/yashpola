@@ -32,7 +32,11 @@ export default function ProjectCard({
       </Paper>
       <List>
         Check it out...&nbsp;
-        <a style={{ color: "red", textDecoration: "none" }} href={testLink}>
+        <a
+          style={{ color: "red", textDecoration: "none" }}
+          href={testLink}
+          target="_blank"
+        >
           here
         </a>
         <ListItem>
