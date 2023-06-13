@@ -5,7 +5,6 @@
 ReactJS, React-Router, MaterialUI, HTML5, CSS3, NodeJS
 
 ## Potential Patches
-1. Blog state doesn't persist upon refresh 
-2. Cat Fact refreshes twice in every render
-3. Accordion for reviews shifts to the left when opened
+1. Cat Fact refreshes twice in every render
+2. Accordion for reviews shifts to the left when opened
 
