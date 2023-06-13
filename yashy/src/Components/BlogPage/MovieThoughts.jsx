@@ -1,11 +1,25 @@
-import { Grid, Paper } from "@mui/material";
+import { Grid, Paper, Button } from "@mui/material";
 import CurrentReviewCard from "./CurrentReviewCard";
 import UpcomingReviewCard from "./UpcomingReviewCard";
 import MoviePosts from "./Posts/MoviePosts";
 
-export default function MovieThoughts() {
+export default function MovieThoughts({ backToDefault, showTVThoughts }) {
   return (
-    <div id="thoughtsgrid">
+    <>
+      <Button
+        variant="contained"
+        onClick={backToDefault}
+        sx={{ backgroundColor: "black", textAlign: "center" }}
+      >
+        Back to Blog Page
+      </Button>
+      <Button
+        variant="contained"
+        onClick={showTVThoughts}
+        sx={{ marginLeft: 3, backgroundColor: "black", textAlign: "center" }}
+      >
+        See TV Thoughts
+      </Button>
       <Grid container spacing={2}>
         <Grid item xs={12}>
           <Paper
@@ -38,6 +52,6 @@ export default function MovieThoughts() {
           <UpcomingReviewCard title="The Nice Guys (2016) | Shane Black | Ryan Gosling, Russell Crowe" />
         </Grid>
       </Grid>
-    </div>
+    </>
   );
 }

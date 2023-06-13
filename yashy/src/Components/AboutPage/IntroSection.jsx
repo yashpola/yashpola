@@ -61,7 +61,7 @@ export default function IntroSection() {
               href="https://dsc.comp.nus.edu.sg/"
               target="_blank"
             >
-              @NUS Google Developer Student Clubs
+              @NUS GDSC
             </a>
           </ListItem>
           <ListItem>

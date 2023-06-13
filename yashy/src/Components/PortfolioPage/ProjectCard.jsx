@@ -1,12 +1,10 @@
 import { Card, Paper, List, ListItem } from "@mui/material";
+import ariaScreenShot from "../WebsiteImages/aria.png";
 
 export default function ProjectCard({
-  numCards,
   projectTitle,
   projectSummary,
   testLink,
-  testLogin,
-  testPassword,
   currentDocumentation,
 }) {
   return (
@@ -31,27 +29,33 @@ export default function ProjectCard({
         <p style={{ fontSize: "20px" }}>{projectSummary}</p>
       </Paper>
       <List>
-        Check it out...&nbsp;
-        <a
-          style={{ color: "red", textDecoration: "none" }}
-          href={testLink}
-          target="_blank"
-        >
-          here
-        </a>
         <ListItem>
-          Test Email: {testLogin}
-          <br />
-          Test Password: {testPassword}
+          Check it out...{" "}
+          <a
+            style={{ color: "red", textDecoration: "none" }}
+            href={testLink}
+            target="_blank"
+          >
+            here
+          </a>
+        </ListItem>
+        <ListItem>
+          Currently updated documentation...{" "}
+          <a
+            style={{ color: "red", textDecoration: "none" }}
+            href={currentDocumentation}
+          >
+            here
+          </a>
         </ListItem>
       </List>
-      Currently updated documentation...&nbsp;{" "}
-      <a
-        style={{ color: "red", textDecoration: "none" }}
-        href={currentDocumentation}
-      >
-        here
-      </a>
+      <img
+        src={ariaScreenShot}
+        style={{
+          width: "100%",
+          height: "100%",
+        }}
+      />
     </Card>
   );
 }

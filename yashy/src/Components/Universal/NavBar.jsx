@@ -1,6 +1,6 @@
 import { Routes, Route, NavLink } from "react-router-dom";
 import AboutPage from "../AboutPage/AboutPage";
-import MediaThoughts from "../BlogPage/MediaThoughts";
+import DefaultBlogPage from "../BlogPage/DefaultBlogPage";
 import PortfolioPage from "../PortfolioPage/PortfolioPage";
 import NoPage from "./NoPage";
 import { Stack } from "@mui/material";
@@ -50,7 +50,7 @@ export default function NavBar() {
       </div>
       <Routes>
         <Route exact path="/" element={<AboutPage />} />
-        <Route exact path="/blog" element={<MediaThoughts />} />
+        <Route exact path="/blog" element={<DefaultBlogPage />} />
         <Route exact path="/portfolio" element={<PortfolioPage />} />
         <Route exact path="*" element={<NoPage />} />
       </Routes>
