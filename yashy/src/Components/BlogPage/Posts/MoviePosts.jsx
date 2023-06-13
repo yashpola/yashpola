@@ -79,7 +79,7 @@ const MoviePosts = {
                himself almost dies in a car crash and has to bribe 2 teenage boys for their silence as he runs off on foot. Whether Anton 
                knows he himself is subject to fate, or he wrongly assumed he was a proteced agent of fate is unknown, but it was a 
                brilliant choice by the Coens to send off his character on this note. While we're here, an interesting ambiguity for me 
-               was in the scene where Anton kills someone and when the victim's assistant ponders on whether he would die too. 
+               was in the scene where Anton kills someone and the victim's assistant ponders on whether he would die too. 
                Anton says, "I don't know. Do you see me?". This could either be taken as saying he would spare the assistant if he doesn't 
                tell anyone anything, or that Anton sees himself as some sort of Grim Reaper and that the assistant seeing him means his death 
                is confirmed.
