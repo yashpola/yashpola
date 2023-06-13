@@ -24,7 +24,7 @@ export default function FactOfTheDay() {
       }}
       elevation={0}
     >
-      <p style={{ fontSize: "20px" }}>Cat Fact of the Day</p>
+      <p style={{ fontSize: "20px" }}>Cat Fact</p>
       <p style={{ color: "blue" }}>{fact}</p>
     </Paper>
   );

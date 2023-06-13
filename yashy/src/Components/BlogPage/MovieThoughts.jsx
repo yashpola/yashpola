@@ -1,4 +1,4 @@
-import { Card, Grid, Paper } from "@mui/material";
+import { Grid, Paper } from "@mui/material";
 import CurrentReviewCard from "./CurrentReviewCard";
 import UpcomingReviewCard from "./UpcomingReviewCard";
 import MoviePosts from "./Posts/MoviePosts";
@@ -19,20 +19,9 @@ export default function MovieThoughts() {
             Current Reviews (Movies)
             <br />
           </Paper>
-          <CurrentReviewCard
-            title={MoviePosts.Inglourious.title}
-            quote={MoviePosts.Inglourious.quote}
-            thoughts={MoviePosts.Inglourious.thoughts}
-            rating={MoviePosts.Inglourious.rating}
-            trivia={MoviePosts.Inglourious.trivia}
-          />
-          <CurrentReviewCard
-            title={MoviePosts.TrainingDay.title}
-            quote={MoviePosts.TrainingDay.quote}
-            thoughts={MoviePosts.TrainingDay.thoughts}
-            rating={MoviePosts.TrainingDay.rating}
-            trivia={MoviePosts.TrainingDay.trivia}
-          />
+          <CurrentReviewCard {...MoviePosts.Inglourious} />
+          <CurrentReviewCard {...MoviePosts.TrainingDay} />
+          <CurrentReviewCard {...MoviePosts.NoCountry} />
         </Grid>
         <Grid item xs={12}>
           <Paper
@@ -45,8 +34,8 @@ export default function MovieThoughts() {
           >
             Upcoming Reviews (Movies)
           </Paper>
-          <UpcomingReviewCard title="No Country for Old Men (2007) | Coen Brothers | Javier Bardem, Josh Brolin, Woody Harrelson" />
           <UpcomingReviewCard title="Nocturnal Animals (2016) | Tom Ford | Jake Gyllenhaal, Amy Adams, Michael Shannon" />
+          <UpcomingReviewCard title="The Nice Guys (2016) | Shane Black | Ryan Gosling, Russell Crowe" />
         </Grid>
       </Grid>
     </div>

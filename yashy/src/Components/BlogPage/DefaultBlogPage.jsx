@@ -21,10 +21,10 @@ export default function DefaultBlogPage() {
               }}
               elevation={0}
             >
-              I document my (not spoiler-free!) brief thoughts here on the
-              movies and tv shows I watch and plan to watch. Use the speed dial
-              at the bottom right of this page to view either movie or tv
-              thoughts!
+              I document my brief thoughts here on the movies and tv shows I
+              watch and plan to watch (I assume you've watched them too!). Use
+              the speed dial at the bottom right of this page to view either
+              movie or tv thoughts.
               <br />
               <TheaterComedy sx={{ margin: "auto", width: 150, height: 150 }} />
             </Card>

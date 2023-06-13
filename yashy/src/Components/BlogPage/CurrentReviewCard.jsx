@@ -2,11 +2,13 @@ import { Accordion, AccordionSummary, AccordionDetails } from "@mui/material";
 import { ExpandMore } from "@mui/icons-material";
 
 export default function CurrentReviewCard({
+  name,
   title,
   quote,
   thoughts,
   rating,
   trivia,
+  recommendations,
 }) {
   return (
     <Accordion
@@ -18,6 +20,8 @@ export default function CurrentReviewCard({
     >
       <AccordionSummary
         sx={{
+          margin: "auto",
+          marginTop: 3,
           backgroundColor: "#E9BEBE",
           fontWeight: "bold",
         }}
@@ -29,6 +33,8 @@ export default function CurrentReviewCard({
       </AccordionSummary>
       <AccordionDetails
         sx={{
+          margin: "auto",
+          marginTop: 3,
           fontFamily: "Roboto",
         }}
       >
@@ -41,6 +47,9 @@ export default function CurrentReviewCard({
         <br />
         <br />
         Trivia: {trivia}
+        <br />
+        <br />
+        If you liked {name}, check out: {recommendations}
       </AccordionDetails>
     </Accordion>
   );

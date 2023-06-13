@@ -1,4 +1,4 @@
-import { Card, Grid, Paper } from "@mui/material";
+import { Grid, Paper } from "@mui/material";
 import CurrentReviewCard from "./CurrentReviewCard";
 import UpcomingReviewCard from "./UpcomingReviewCard";
 import TVShowPosts from "./Posts/TVShowPosts";
@@ -17,13 +17,8 @@ export default function TVShowThoughts() {
         >
           Current Reviews (TV)
         </Paper>
-        <CurrentReviewCard
-          title={TVShowPosts.Suits.title}
-          quote={TVShowPosts.Suits.quote}
-          thoughts={TVShowPosts.Suits.thoughts}
-          rating={TVShowPosts.Suits.rating}
-          trivia={TVShowPosts.Suits.trivia}
-        />
+        <CurrentReviewCard {...TVShowPosts.Suits} />
+        <CurrentReviewCard {...TVShowPosts.MadMen} />
       </Grid>
       <Grid item xs={12}>
         <Paper
@@ -37,8 +32,8 @@ export default function TVShowThoughts() {
         >
           Upcoming Reviews (TV)
         </Paper>
-        <UpcomingReviewCard title={TVShowPosts.MadMen.title} />
         <UpcomingReviewCard title={TVShowPosts.BreakingBad.title} />
+        <UpcomingReviewCard title="House of Cards (2013) | Beau Willimon | Kevin Spacey, Robin Wright" />
       </Grid>
     </Grid>
   );
