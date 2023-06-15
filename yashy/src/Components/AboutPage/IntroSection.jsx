@@ -45,7 +45,7 @@ export default function IntroSection() {
         </List>
         <List>
           Current Engagements (Summer '23):
-          <ListItem>
+          {/* <ListItem>
             <a
               style={{ color: "red", textDecoration: "none" }}
               href="https://orbital.comp.nus.edu.sg/"
@@ -53,7 +53,7 @@ export default function IntroSection() {
             >
               Orbital @NUS School of Computing
             </a>
-          </ListItem>
+          </ListItem> */}
           <ListItem>
             Product Lead &nbsp;
             <a

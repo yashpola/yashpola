@@ -23,10 +23,8 @@ export default function PortfolioPage() {
           <ProjectCard
             numCards={2}
             projectTitle="A.R.I.A."
-            projectSummary="Website-based college study assistant (WIP)"
+            projectSummary="Website-based college study assistant (Work-in-Progress)"
             testLink="https://orbital-aria.vercel.app/"
-            testLogin="orbitaltester123@gmail.com"
-            testPassword="OrbitalTest123"
             currentDocumentation="https://docs.google.com/document/d/14tEVievtk629qVUgPXAYXe-7gqTgg7j2Rym7HW1WDfc/edit?usp=sharing"
           />
         </Grid>
