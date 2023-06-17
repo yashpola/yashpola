@@ -44,6 +44,7 @@ export default function ProjectCard({
           <a
             style={{ color: "red", textDecoration: "none" }}
             href={currentDocumentation}
+            target="_blank"
           >
             here
           </a>
