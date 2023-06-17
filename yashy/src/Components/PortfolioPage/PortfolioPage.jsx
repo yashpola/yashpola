@@ -25,7 +25,7 @@ export default function PortfolioPage() {
             projectTitle="A.R.I.A."
             projectSummary="Website-based college study assistant (Work-in-Progress)"
             testLink="https://orbital-aria.vercel.app/"
-            currentDocumentation="https://docs.google.com/document/d/14tEVievtk629qVUgPXAYXe-7gqTgg7j2Rym7HW1WDfc/edit?usp=sharing"
+            currentDocumentation="https://docs.google.com/document/d/1LfagfeOdkiKYe6ysc-XoEnK6H7rnUqI2WzRXayJLmAk/edit?usp=sharing"
           />
         </Grid>
       </Grid>
