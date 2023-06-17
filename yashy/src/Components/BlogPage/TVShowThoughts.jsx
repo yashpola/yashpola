@@ -18,7 +18,7 @@ export default function TVShowThoughts({ backToDefault, showMovieThoughts }) {
         onClick={showMovieThoughts}
         sx={{ marginLeft: 3, backgroundColor: "black", textAlign: "center" }}
       >
-        See Movie Thoughts
+        Movie Thoughts
       </Button>
       <Grid container spacing={2}>
         <Grid item xs={12}>

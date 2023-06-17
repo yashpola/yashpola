@@ -30,7 +30,7 @@ export default function ProjectCard({
       </Paper>
       <List>
         <ListItem>
-          Check it out...{" "}
+          Check it out&nbsp;
           <a
             style={{ color: "red", textDecoration: "none" }}
             href={testLink}
@@ -40,7 +40,7 @@ export default function ProjectCard({
           </a>
         </ListItem>
         <ListItem>
-          Currently updated documentation...{" "}
+          Current documentation&nbsp;
           <a
             style={{ color: "red", textDecoration: "none" }}
             href={currentDocumentation}

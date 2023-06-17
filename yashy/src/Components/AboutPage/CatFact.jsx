@@ -1,4 +1,4 @@
-import { useCallback, useState, useLayoutEffect } from "react";
+import { useCallback, useState, useEffect } from "react";
 import { Paper } from "@mui/material";
 
 export default function FactOfTheDay() {
@@ -11,7 +11,7 @@ export default function FactOfTheDay() {
       .catch(() => setFact("Failed to load fact!"));
   }, [setFact]);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     fetchFact();
   }, []);
 
