@@ -47,8 +47,10 @@ export default function IntroSection() {
         }}
         elevation={0}
       >
-        I'm Yashwit Polapragada but you can call me Yash! I'm currently a
-        sophomore at NUS College, studying Computer Science.
+        <b>
+          I'm Yashwit Polapragada but you can call me Yash! I'm currently a
+          sophomore at NUS College, studying Computer Science.
+        </b>
         <br />
         <br />
         Tidbits:
@@ -58,23 +60,8 @@ export default function IntroSection() {
         </List>
         <List>
           Current Engagements (Summer '23):
-          <ListItem>
-            Product Head&nbsp;
-            <a
-              style={{ color: "blue", textDecoration: "underline" }}
-              href="https://dsc.comp.nus.edu.sg/"
-            >
-              @NUS GDSC
-            </a>
-          </ListItem>
-          <ListItem>
-            <a
-              style={{ color: "blue", textDecoration: "underline" }}
-              href="https://nuscollege.nus.edu.sg/academics/the-nusc-curriculum/impact-experience/"
-            >
-              NUSC Community Impact Project
-            </a>
-          </ListItem>
+          <ListItem>Product Head @NUS Google Developer Student Clubs</ListItem>
+          <ListItem>NUSC Community Impact Project</ListItem>
         </List>
         <Paper
           sx={{
