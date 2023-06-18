@@ -1,7 +1,8 @@
 import { Card, Paper, List, ListItem } from "@mui/material";
-import ariaScreenShot from "../WebsiteImages/aria.png";
+import { Article, BugReport } from "@mui/icons-material";
 
 export default function ProjectCard({
+  projectImg,
   projectTitle,
   projectSummary,
   testLink,
@@ -30,31 +31,37 @@ export default function ProjectCard({
       </Paper>
       <List>
         <ListItem>
-          Check it out&nbsp;
+          <Article sx={{ color: "red" }} />
+          &nbsp;
           <a
-            style={{ color: "red", textDecoration: "none" }}
-            href={testLink}
-            target="_blank"
+            style={{ color: "blue", textDecoration: "underline" }}
+            href={currentDocumentation}
+            title="ARIA's documentation"
           >
-            here
+            Current documentation
           </a>
         </ListItem>
         <ListItem>
-          Current documentation&nbsp;
+          <BugReport sx={{ color: "red" }} />
+          &nbsp;
           <a
-            style={{ color: "red", textDecoration: "none" }}
-            href={currentDocumentation}
-            target="_blank"
+            style={{ color: "blue", textDecoration: "underline" }}
+            href={testLink}
+            title="Try out ARIA"
           >
-            here
+            Try it now!
           </a>
         </ListItem>
       </List>
       <img
-        src={ariaScreenShot}
+        id="projectImg"
+        src={projectImg}
+        alt="ariaSnapshot"
         style={{
           width: "100%",
-          height: "100%",
+          height: "auto",
+
+          // opacity: 0.5,
         }}
       />
     </Card>

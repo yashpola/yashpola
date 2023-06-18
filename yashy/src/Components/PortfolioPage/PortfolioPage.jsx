@@ -1,6 +1,6 @@
 import { Grid, Card } from "@mui/material";
 import ProjectCard from "./ProjectCard";
-import ComingSoonCard from "../Universal/ComingSoonCard";
+import ariaScreenShot from "../WebsiteImages/aria.png";
 
 export default function PortfolioPage() {
   return (
@@ -26,6 +26,7 @@ export default function PortfolioPage() {
             projectSummary="Website-based college study assistant (Work-in-Progress)"
             testLink="https://orbital-aria.vercel.app/"
             currentDocumentation="https://docs.google.com/document/d/1LfagfeOdkiKYe6ysc-XoEnK6H7rnUqI2WzRXayJLmAk/edit?usp=sharing"
+            projectImg={ariaScreenShot}
           />
         </Grid>
       </Grid>

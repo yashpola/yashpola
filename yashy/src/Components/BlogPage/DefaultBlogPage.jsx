@@ -55,27 +55,35 @@ export default function DefaultBlogPage() {
                 I document my brief thoughts here on the movies and tv shows I
                 watch and plan to watch (I assume you've watched them too!).
                 Click to view either{" "}
-                <a
+                <button
                   style={{
+                    backgroundColor: "transparent",
+                    border: "none",
+                    fontSize: 30,
+                    fontFamily: "inherit",
                     cursor: "pointer",
+                    color: "blue",
                     textDecoration: "underline",
-                    color: "red",
                   }}
                   onClick={showMovieThoughts}
                 >
                   movie
-                </a>{" "}
+                </button>{" "}
                 or{" "}
-                <a
+                <button
                   style={{
+                    backgroundColor: "transparent",
+                    border: "none",
+                    fontSize: 30,
+                    fontFamily: "inherit",
                     cursor: "pointer",
+                    color: "blue",
                     textDecoration: "underline",
-                    color: "red",
                   }}
                   onClick={showTVThoughts}
                 >
                   tv
-                </a>{" "}
+                </button>{" "}
                 thoughts.
                 <br />
                 <TheaterComedy

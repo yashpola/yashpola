@@ -1,7 +1,20 @@
-import { Paper, Avatar, List, ListItem } from "@mui/material";
+import { Paper, Avatar, List, ListItem, Stack } from "@mui/material";
+import {
+  LinkedIn,
+  GitHub,
+  Email,
+  Instagram,
+  Telegram,
+} from "@mui/icons-material";
 import me from "../../me.JPG";
+import myGa from "../../myGa";
+import { useEffect } from "react";
 
 export default function IntroSection() {
+  useEffect(() => {
+    myGa();
+  }, []);
+
   return (
     <>
       <Paper
@@ -9,7 +22,7 @@ export default function IntroSection() {
           backgroundColor: "#E9BEBE",
           padding: 2,
           fontSize: "50px",
-          textDecoration: "underline",
+          // textDecoration: "underline",
         }}
         elevation={0}
       >
@@ -45,35 +58,57 @@ export default function IntroSection() {
         </List>
         <List>
           Current Engagements (Summer '23):
-          {/* <ListItem>
-            <a
-              style={{ color: "red", textDecoration: "none" }}
-              href="https://orbital.comp.nus.edu.sg/"
-              target="_blank"
-            >
-              Orbital @NUS School of Computing
-            </a>
-          </ListItem> */}
           <ListItem>
-            Product Lead &nbsp;
+            Product Head&nbsp;
             <a
-              style={{ color: "red", textDecoration: "none" }}
+              style={{ color: "blue", textDecoration: "underline" }}
               href="https://dsc.comp.nus.edu.sg/"
-              target="_blank"
             >
               @NUS GDSC
             </a>
           </ListItem>
           <ListItem>
             <a
-              style={{ color: "red", textDecoration: "none" }}
+              style={{ color: "blue", textDecoration: "underline" }}
               href="https://nuscollege.nus.edu.sg/academics/the-nusc-curriculum/impact-experience/"
-              target="_blank"
             >
               NUSC Community Impact Project
             </a>
           </ListItem>
         </List>
+        <Paper
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            marginTop: 3,
+          }}
+          elevation={0}
+        >
+          <Stack direction="row" spacing={2}>
+            <a
+              href="https://www.linkedin.com/in/yashwit-polapragada-7a507923a/"
+              title="Yashwit's Linkedin"
+            >
+              <LinkedIn sx={{ color: "#0072b1" }} />
+            </a>
+            <a href="https://github.com/yashpola" title="Yashwit's GitHub">
+              <GitHub sx={{ color: "black" }} />
+            </a>
+            <a href="mailto: yashwit@u.nus.edu" title="Yashwit's Email">
+              <Email sx={{ color: "green" }} />
+            </a>
+            <a
+              href="https://www.instagram.com/yashypola/"
+              title="Yashwit's Instagram"
+            >
+              <Instagram sx={{ color: "red" }} />
+            </a>
+            <a href="https://t.me/yashypola" title="Yashwit's Telegram">
+              <Telegram sx={{ color: "#0088cc" }} />
+            </a>
+          </Stack>
+        </Paper>
       </Paper>
     </>
   );
