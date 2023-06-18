@@ -7,14 +7,8 @@ import {
   Telegram,
 } from "@mui/icons-material";
 import me from "../../me.JPG";
-import myGa from "../../myGa";
-import { useEffect } from "react";
 
 export default function IntroSection() {
-  useEffect(() => {
-    myGa();
-  }, []);
-
   return (
     <>
       <Paper
