@@ -1,8 +1,8 @@
 import { Card } from "@mui/material";
 
 export default function SiteVisits() {
-  const KEY = crypto.randomUUID();
-  const NAMESPACE = "yashwit.com";
+  const KEY = `e34a9374-0e49-11ee-be56-0242ac120002`;
+  const NAMESPACE = "https://yashwit.com";
   const COUNT_URL = `https://api.countapi.xyz`;
 
   const counter = document.querySelectorAll("span");
