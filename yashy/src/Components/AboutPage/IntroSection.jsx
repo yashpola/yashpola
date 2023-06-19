@@ -91,15 +91,6 @@ export default function IntroSection() {
             </a>
           </Stack>
         </Paper>
-        <h6
-          style={{
-            fontWeight: "bold",
-            color: "red",
-            float: "right",
-          }}
-        >
-          Site Visits:
-        </h6>
       </Paper>
     </>
   );

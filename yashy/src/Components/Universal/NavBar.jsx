@@ -1,13 +1,12 @@
 import { Routes, Route, NavLink } from "react-router-dom";
-import ReactGA from "react-ga";
 import AboutPage from "../AboutPage/AboutPage";
 import DefaultBlogPage from "../BlogPage/DefaultBlogPage";
 import PortfolioPage from "../PortfolioPage/PortfolioPage";
+import SiteVisits from "./SiteVisits";
 import NoPage from "./NoPage";
 import { Stack } from "@mui/material";
 
 export default function NavBar() {
-  ReactGA.pageview("/");
   return (
     <>
       <div className="navbar">
@@ -48,12 +47,24 @@ export default function NavBar() {
               Portfolio
             </NavLink>
           </div>
+          <div className="nav-item" style={{ margin: "10px" }}>
+            <NavLink
+              to="/sitevisits"
+              style={({ isActive }) => ({
+                textDecoration: isActive ? "underline" : "none",
+                color: isActive ? "pink" : "grey",
+              })}
+            >
+              Site Visits
+            </NavLink>
+          </div>
         </Stack>
       </div>
       <Routes>
         <Route exact path="/" element={<AboutPage />} />
         <Route exact path="/blog" element={<DefaultBlogPage />} />
         <Route exact path="/portfolio" element={<PortfolioPage />} />
+        <Route exact path="/sitevisits" element={<SiteVisits />} />
         <Route exact path="*" element={<NoPage />} />
       </Routes>
     </>
