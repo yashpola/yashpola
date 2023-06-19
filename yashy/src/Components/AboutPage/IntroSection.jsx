@@ -7,7 +7,6 @@ import {
   Telegram,
 } from "@mui/icons-material";
 import me from "../../me.JPG";
-import { useEffect, useState } from "react";
 
 export default function IntroSection() {
   return (
@@ -17,7 +16,6 @@ export default function IntroSection() {
           backgroundColor: "#E9BEBE",
           padding: 2,
           fontSize: "50px",
-          // textDecoration: "underline",
         }}
         elevation={0}
       >

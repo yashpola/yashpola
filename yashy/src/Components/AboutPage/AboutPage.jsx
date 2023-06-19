@@ -1,4 +1,4 @@
-import { Card, Divider, Grid } from "@mui/material";
+import { Card } from "@mui/material";
 import IntroSection from "./IntroSection";
 import CatFact from "./CatFact";
 
