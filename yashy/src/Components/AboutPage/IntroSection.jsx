@@ -7,14 +7,9 @@ import {
   Telegram,
 } from "@mui/icons-material";
 import me from "../../me.JPG";
-import myGa from "../../myGa";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function IntroSection() {
-  useEffect(() => {
-    myGa();
-  }, []);
-
   return (
     <>
       <Paper
@@ -96,6 +91,15 @@ export default function IntroSection() {
             </a>
           </Stack>
         </Paper>
+        <h6
+          style={{
+            fontWeight: "bold",
+            color: "red",
+            float: "right",
+          }}
+        >
+          Site Visits:
+        </h6>
       </Paper>
     </>
   );

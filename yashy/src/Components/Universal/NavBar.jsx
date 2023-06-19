@@ -1,4 +1,5 @@
 import { Routes, Route, NavLink } from "react-router-dom";
+import ReactGA from "react-ga";
 import AboutPage from "../AboutPage/AboutPage";
 import DefaultBlogPage from "../BlogPage/DefaultBlogPage";
 import PortfolioPage from "../PortfolioPage/PortfolioPage";
@@ -6,6 +7,7 @@ import NoPage from "./NoPage";
 import { Stack } from "@mui/material";
 
 export default function NavBar() {
+  ReactGA.pageview("/");
   return (
     <>
       <div className="navbar">
