@@ -5,6 +5,7 @@ export default function ProjectCard({
   projectImg,
   projectTitle,
   projectSummary,
+  projectDemo,
   testLink,
   currentDocumentation,
 }) {
@@ -39,6 +40,15 @@ export default function ProjectCard({
             title="ARIA's documentation"
           >
             Current documentation
+          </a>
+        </ListItem>
+        <ListItem>
+          <a
+            style={{ color: "blue", textDecoration: "underline" }}
+            href={projectDemo}
+            title="ARIA's Demo Video"
+          >
+            Product Demo Video
           </a>
         </ListItem>
         <ListItem>
