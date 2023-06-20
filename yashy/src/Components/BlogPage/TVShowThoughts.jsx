@@ -1,4 +1,5 @@
-import { Grid, Paper, Button } from "@mui/material";
+import { Grid, Button, IconButton } from "@mui/material";
+import { NavigateBefore, NavigateNext } from "@mui/icons-material";
 import CurrentReviewCard from "./CurrentReviewCard";
 import UpcomingReviewCard from "./UpcomingReviewCard";
 import TVShowPosts from "./Posts/TVShowPosts";
@@ -6,47 +7,43 @@ import TVShowPosts from "./Posts/TVShowPosts";
 export default function TVShowThoughts({ backToDefault, showMovieThoughts }) {
   return (
     <>
-      <Button
-        variant="contained"
-        onClick={backToDefault}
-        sx={{ backgroundColor: "black", textAlign: "center" }}
-      >
-        Back to Blog Page
-      </Button>
-      <Button
-        variant="contained"
-        onClick={showMovieThoughts}
-        sx={{ marginLeft: 3, backgroundColor: "black", textAlign: "center" }}
-      >
-        Movie Thoughts
-      </Button>
       <Grid container spacing={2}>
         <Grid item xs={12}>
-          <Paper
+          <Button
             sx={{
-              marginTop: 5,
-              textAlign: "center",
-              fontSize: 35,
+              backgroundColor: "black",
+              border: "none",
+              marginTop: 2,
+              marginLeft: 2,
             }}
-            elevation={0}
+            onClick={backToDefault}
+            variant="contained"
           >
-            Current Reviews (TV)
-          </Paper>
+            Back to Home
+          </Button>{" "}
+          <Button
+            sx={{
+              backgroundColor: "black",
+              border: "none",
+              marginTop: 2,
+              marginLeft: 2,
+            }}
+            onClick={showMovieThoughts}
+            variant="contained"
+          >
+            Movie Thoughts
+          </Button>
+        </Grid>
+        <Grid item xs={12}>
+          <h1>Yashy's TV Thoughts</h1>
+        </Grid>
+        <Grid item xs={12}>
+          <h1>Current Reviews</h1>
           <CurrentReviewCard {...TVShowPosts.Suits} />
           <CurrentReviewCard {...TVShowPosts.MadMen} />
         </Grid>
         <Grid item xs={12}>
-          <Paper
-            sx={{
-              textAlign: "center",
-              marginTop: 10,
-              // maxWidth: "50%",
-              fontSize: 35,
-            }}
-            elevation={0}
-          >
-            Upcoming Reviews (TV)
-          </Paper>
+          <h1>Upcoming Reviews</h1>
           <UpcomingReviewCard title={TVShowPosts.BreakingBad.title} />
           <UpcomingReviewCard title="House of Cards (2013) | Beau Willimon | Kevin Spacey, Robin Wright" />
         </Grid>

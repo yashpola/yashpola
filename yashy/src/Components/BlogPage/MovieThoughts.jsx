@@ -1,4 +1,5 @@
-import { Grid, Paper, Button } from "@mui/material";
+import { Grid, Button } from "@mui/material";
+import { NavigateBefore, NavigateNext } from "@mui/icons-material";
 import CurrentReviewCard from "./CurrentReviewCard";
 import UpcomingReviewCard from "./UpcomingReviewCard";
 import MoviePosts from "./Posts/MoviePosts";
@@ -6,51 +7,48 @@ import MoviePosts from "./Posts/MoviePosts";
 export default function MovieThoughts({ backToDefault, showTVThoughts }) {
   return (
     <>
-      <Button
-        variant="contained"
-        onClick={backToDefault}
-        sx={{ backgroundColor: "black", textAlign: "center" }}
-      >
-        Back to Blog Page
-      </Button>
-      <Button
-        variant="contained"
-        onClick={showTVThoughts}
-        sx={{ marginLeft: 3, backgroundColor: "black", textAlign: "center" }}
-      >
-        TV Thoughts
-      </Button>
       <Grid container spacing={2}>
         <Grid item xs={12}>
-          <Paper
+          <Button
             sx={{
-              marginTop: 5,
-              textAlign: "center",
-              fontSize: 35,
+              backgroundColor: "black",
+              border: "none",
+              marginTop: 2,
+              marginLeft: 2,
             }}
-            elevation={0}
+            onClick={backToDefault}
+            variant="contained"
           >
-            Current Reviews (Movies)
-            <br />
-          </Paper>
+            Back to Home
+          </Button>{" "}
+          <Button
+            sx={{
+              backgroundColor: "black",
+              border: "none",
+              marginTop: 2,
+              marginLeft: 2,
+            }}
+            onClick={showTVThoughts}
+            variant="contained"
+          >
+            TV Thoughts
+          </Button>
+        </Grid>
+        <Grid item xs={12}>
+          <h1>Yashy's Movie Thoughts</h1>
+        </Grid>
+        <Grid item xs={12}>
+          <h1>Current Reviews</h1>
           <CurrentReviewCard {...MoviePosts.Inglourious} />
           <CurrentReviewCard {...MoviePosts.TrainingDay} />
           <CurrentReviewCard {...MoviePosts.NoCountry} />
         </Grid>
         <Grid item xs={12}>
-          <Paper
-            sx={{
-              textAlign: "center",
-              marginTop: 10,
-              fontSize: 35,
-            }}
-            elevation={0}
-          >
-            Upcoming Reviews (Movies)
-          </Paper>
+          <h1>Upcoming Reviews</h1>
           <UpcomingReviewCard title="Nocturnal Animals (2016) | Tom Ford | Jake Gyllenhaal, Amy Adams, Michael Shannon" />
           <UpcomingReviewCard title="The Nice Guys (2016) | Shane Black | Ryan Gosling, Russell Crowe" />
         </Grid>
+        <Grid item xs={12}></Grid>
       </Grid>
     </>
   );

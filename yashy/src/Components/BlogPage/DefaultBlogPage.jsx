@@ -34,78 +34,51 @@ export default function DefaultBlogPage() {
 
   return (
     <>
-      <Grid sx={{ margin: "auto" }} container spacing={2}>
-        <Grid item xs={12}>
-          {defaultPage && (
-            <Container
-              sx={{
-                backgroundColor: "#E9BEBE",
-                padding: 4,
-              }}
-            >
-              <Card
-                sx={{
-                  fontSize: 30,
-                  textAlign: "center",
-                  padding: 2,
-                  borderRadius: "16px",
-                }}
-                elevation={0}
-              >
-                I document my brief thoughts here on the movies and tv shows I
-                watch and plan to watch (I assume you've watched them too!).
-                Click to view either{" "}
-                <button
-                  style={{
-                    backgroundColor: "transparent",
-                    border: "none",
-                    fontSize: 30,
-                    fontFamily: "inherit",
-                    cursor: "pointer",
-                    color: "blue",
-                    textDecoration: "underline",
-                  }}
-                  onClick={showMovieThoughts}
-                >
-                  movie
-                </button>{" "}
-                or{" "}
-                <button
-                  style={{
-                    backgroundColor: "transparent",
-                    border: "none",
-                    fontSize: 30,
-                    fontFamily: "inherit",
-                    cursor: "pointer",
-                    color: "blue",
-                    textDecoration: "underline",
-                  }}
-                  onClick={showTVThoughts}
-                >
-                  tv
-                </button>{" "}
-                thoughts.
-                <br />
-                <TheaterComedy
-                  sx={{ margin: "auto", width: 150, height: 150 }}
-                />
-              </Card>
-            </Container>
-          )}
-          {movieThoughts && (
-            <MovieThoughts
-              backToDefault={backToDefault}
-              showTVThoughts={showTVThoughts}
-            />
-          )}
-          {tvShowThoughts && (
-            <TVShowThoughts
-              backToDefault={backToDefault}
-              showMovieThoughts={showMovieThoughts}
-            />
-          )}
-        </Grid>
-      </Grid>
+      {defaultPage && (
+        <Container
+          sx={{
+            backgroundColor: "#E9BEBE",
+            padding: 4,
+            marginTop: 5,
+          }}
+        >
+          <Card
+            className="blog-page-card"
+            sx={{
+              textAlign: "center",
+              padding: 2,
+              borderRadius: "16px",
+            }}
+            elevation={0}
+          >
+            I document my brief thoughts here on the movies and tv shows I watch
+            and plan to watch (I assume you've watched them too!). Click to view
+            either
+            <button className="blog-page-links" onClick={showMovieThoughts}>
+              movie
+            </button>
+            or
+            <button className="blog-page-links" onClick={showTVThoughts}>
+              tv
+            </button>
+            thoughts.
+            <br />
+            <TheaterComedy sx={{ margin: "auto", width: 150, height: 150 }} />
+          </Card>
+        </Container>
+      )}
+      {movieThoughts && (
+        <MovieThoughts
+          backToDefault={backToDefault}
+          showTVThoughts={showTVThoughts}
+        />
+      )}
+      {tvShowThoughts && (
+        <TVShowThoughts
+          backToDefault={backToDefault}
+          showMovieThoughts={showMovieThoughts}
+        />
+      )}
     </>
   );
 }

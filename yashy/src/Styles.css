@@ -7,4 +7,92 @@ body {
   background-attachment: fixed;
   background-size: cover;
   font-family: "Special Elite";
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.navbar {
+  border-bottom: 3px solid #5cc9eb;
+  width: 100%;
+}
+
+.nav-item {
+  display: inline;
+  cursor: pointer;
+}
+
+.blog-page-links {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  font-family: inherit;
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.movie-tv-nav-buttons {
+  background-color: black;
+}
+
+/* Small devices (phones) */
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    font-size: 30px;
+  }
+  .nav-item {
+    font-size: 20px;
+  }
+
+  .blog-page-card {
+    font-size: 20px;
+  }
+
+  .blog-page-links {
+    font-size: 20px;
+  }
+}
+
+/* Medium devices (landscape tablets, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .navbar-brand {
+    font-size: 50px;
+  }
+  .nav-item {
+    font-size: 30px;
+  }
+
+  .blog-page-card {
+    font-size: 30px;
+  }
+
+  .blog-page-links {
+    font-size: 30px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .navbar-brand {
+    font-size: 60px;
+  }
+  .nav-item {
+    font-size: 40px;
+  }
+
+  .blog-page-card {
+    font-size: 40px;
+  }
+
+  .blog-page-links {
+    font-size: 40px;
+  }
 }

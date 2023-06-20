@@ -1,5 +1,5 @@
-import { Card, Paper, List, ListItem } from "@mui/material";
-import { Article, BugReport, OndemandVideo } from "@mui/icons-material";
+import { Card, Paper, List, ListItem, Grid } from "@mui/material";
+import { Article, BugReport, OndemandVideo, GitHub } from "@mui/icons-material";
 
 export default function ProjectCard({
   projectImg,
@@ -7,75 +7,75 @@ export default function ProjectCard({
   projectSummary,
   projectDemo,
   testLink,
+  projectIssues,
   currentDocumentation,
 }) {
   return (
     <Card
       sx={{
-        width: "50%",
+        width: "70%",
         margin: "auto",
         padding: 2,
       }}
       elevation={10}
     >
       <Paper
+        className="project-summary-card"
         sx={{
-          fontSize: 30,
           textAlign: "center",
           backgroundColor: "#E9BEBE",
           padding: 2,
           marginBottom: 2,
         }}
       >
-        <u>{projectTitle}</u>
-        <p style={{ fontSize: "20px" }}>{projectSummary}</p>
+        <h1>{projectTitle}</h1>
+        <h2>{projectSummary}</h2>
       </Paper>
-      <List>
-        <ListItem>
-          <Article sx={{ color: "red" }} />
-          &nbsp;
-          <a
-            style={{ color: "blue", textDecoration: "underline" }}
-            href={currentDocumentation}
-            title="ARIA's documentation"
-          >
-            Current documentation
-          </a>
-        </ListItem>
-        <ListItem>
-          <OndemandVideo sx={{ color: "red" }} />
-          &nbsp;
-          <a
-            style={{ color: "blue", textDecoration: "underline" }}
-            href={projectDemo}
-            title="ARIA's Demo Video"
-          >
-            Product Demo Video
-          </a>
-        </ListItem>
-        <ListItem>
-          <BugReport sx={{ color: "red" }} />
-          &nbsp;
-          <a
-            style={{ color: "blue", textDecoration: "underline" }}
-            href={testLink}
-            title="Try out ARIA"
-          >
-            Try it now!
-          </a>
-        </ListItem>
-      </List>
-      <img
-        id="projectImg"
-        src={projectImg}
-        alt="ariaSnapshot"
-        style={{
-          width: "100%",
-          height: "auto",
-
-          // opacity: 0.5,
-        }}
-      />
+      <Grid container spacing={2}>
+        <Grid item xs={12} sm={6}>
+          <List>
+            <ListItem>
+              <Article sx={{ color: "red" }} />
+              &nbsp;
+              <a href={currentDocumentation} title="ARIA's documentation">
+                Current Documentation
+              </a>
+            </ListItem>
+            <ListItem>
+              <OndemandVideo sx={{ color: "red" }} />
+              &nbsp;
+              <a href={projectDemo} title="ARIA's Demo Video">
+                Product Video
+              </a>
+            </ListItem>
+            <ListItem>
+              <BugReport sx={{ color: "red" }} />
+              &nbsp;
+              <a href={testLink} title="Try out ARIA">
+                Try it Now
+              </a>
+            </ListItem>
+            <ListItem>
+              <GitHub sx={{ color: "red" }} />
+              &nbsp;
+              <a href={projectIssues} title="Feedback on ARIA">
+                Open an Issue
+              </a>
+            </ListItem>
+          </List>
+        </Grid>
+        <Grid item xs={12} sm={6}>
+          <img
+            id="projectImg"
+            src={projectImg}
+            alt="ariaSnapshot"
+            style={{
+              width: "100%",
+              height: "auto",
+            }}
+          />
+        </Grid>
+      </Grid>
     </Card>
   );
 }
