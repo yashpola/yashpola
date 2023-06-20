@@ -1,5 +1,5 @@
 import { Card, Paper, List, ListItem } from "@mui/material";
-import { Article, BugReport } from "@mui/icons-material";
+import { Article, BugReport, OndemandVideo } from "@mui/icons-material";
 
 export default function ProjectCard({
   projectImg,
@@ -43,6 +43,8 @@ export default function ProjectCard({
           </a>
         </ListItem>
         <ListItem>
+          <OndemandVideo sx={{ color: "red" }} />
+          &nbsp;
           <a
             style={{ color: "blue", textDecoration: "underline" }}
             href={projectDemo}
