@@ -14,7 +14,7 @@ export default function PortfolioPage() {
             projectSummary="Website-based college study assistant (Work-in-Progress)"
             testLink="https://orbital-aria.vercel.app/"
             currentDocumentation="https://docs.google.com/document/d/1LfagfeOdkiKYe6ysc-XoEnK6H7rnUqI2WzRXayJLmAk/edit?usp=sharing"
-            projectDemo="https://drive.google.com/file/d/1fmOmj6j2wAMt05yadI6_J6eILEEK3Qma/view?usp=sharing"
+            projectDemo="https://drive.google.com/file/d/1wpu2ayaO2gEmV-KSf4ePeZtkgYs0QHx8/view?usp=sharing"
             projectIssues="https://github.com/yashpola/OrbitalARIA/issues"
             projectImg={ariaScreenShot}
           />
