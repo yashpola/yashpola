@@ -100,6 +100,55 @@ const MoviePosts = {
     psychopath.`,
     recommendations: "Se7en, Zodiac, American Psycho",
   },
+  Oppenheimer: {
+    name: "Oppenheimer",
+    title:
+      "Oppenheimer (2023) | Christopher Nolan | Cilian Murphy, Emily Blunt, Robert Downey Jr.",
+    quote: "I am become Death, Destroyer of Worlds.",
+    thoughts: `I think I've rarely if never decided immediately after watching a movie that one of the actors in it
+    deserve an oscar. With this one though, it was almost definitive that Cilian Murhpy should sweep Best Actor. 
+    I'd only read about the absolute destruction that the Manhattan Project wrought on Oppy's soul, and I wouldn't 
+    even have held it against Cilian not to be able to fully replicate such a harrowing psychological crisis. Yet, he knocked
+    it out of the park anyway - right from the robotic, defeated voice to the empty eyes that seem to have witnessed 
+    eons of misery. There are two things I particularly liked about Oppenheimer that I think should earn Nolan Best 
+    Director if not Best Picture. 
+    
+    First, I believe that this is Nolan's best film in terms of the artistic-visual experience. 
+    Nolan likes incorporating neat little explanations into his movies (the famous wormhole explanation in Interstellar, 
+    or the explanation of reverse time in Tenet) but in Oppenheimer he showed a lot more than he told. 
+    The starry, stringy, spacey visuals of the hidden Quantum Universe that eluded Oppenheimer; the firey, 
+    snappy chemical reactions inside the envisioned bomb. These brought a life to the story of Oppenheimer, and more 
+    importantly the science in his life, in a way I've never seen before. I liked Nolan's decision to include more 
+    visuals of the story leading up to the bomb (Trinity, the B-52 that dropped the bombs), rather than making a 
+    spectacle of Hiroshima and Nagasaki instead. Oppenheimer didn't get to actually see the final bombing - only 
+    anticipate it as well as ruminate in its aftermath, and this is what Nolan brought to us. As an aside, I also found
+    the choice of Black&White for certain sequences to be compelling, and also an indicator of Nolan learning from 
+    past films - particularly in terms of telling non-chronological stories in a less intellectually demanding manner. 
+    
+    The second thing I liked, was that the dialogue in Oppenheimer packs a lot of wit into sharply-delivered, almost cutting exchanges
+    between characters. It reminded me of a typical David Fincher and/or Aaron Korsh film, and evidently some critics
+    share my opinion - comparing the movie to The Social Network. I found myself genuinely enjoying the various 
+    witty exchanges, as well as immersing myself in the marriage of the crisp dialogue and the actors selling them 
+    with their full determination. Apart from the visuals, the smooth dialogue also really buttered the explanation of the 
+    science underlying the story.  
+
+    I went into this movie with tempered expectations; expecting something minimally good out of a Nolan movie but 
+    hoping not to be disappointed. And the movie easily overdelivered - selling me on it in the 20 minutes. I passed on 
+    Avatar because of the 3+ hour runtime, but Oppenheimer felt like a time machine sucking me in after the first 
+    act and keeping me hooked till the credits. 
+
+    There are a million other things to say about the brilliant choices that made Oppenheimer but in summary this was
+    soaring comeback for Nolan after his polarizing Tenet. I am very hopeful and excited about his plans for the future, 
+    and I'm rooting for Oppenheimer to win all the awards it deserves. 
+    `,
+    rating: `9/10. The pacing of the film may turn some viewers off, and I feel that a particular sexual scene - 
+    although evocative and apropos of the tone of the sequence - was not worth the R rating the movie got. However, 
+    Nolan commented that this was an act of experimentation by him of unexplored aspects of love stories in his previous 
+    films, which I can understand.`,
+    trivia:
+      "J. Robert Oppenheimer was mentioned by name in Nolan's previous film Tenet (2020) during a conversation between Priya Singh (Dimple Kapadia) and The Protagonist (John David Washington), seemingly indicating that Nolan already had the idea of what his next film was going to be about.",
+    recommendations: "The Social Network, Dunkirk",
+  },
 };
 
 export default MoviePosts;
