@@ -140,7 +140,7 @@ const MoviePosts = {
              may also turn certain segments of the audience off.`,
     trivia:
       "J. Robert Oppenheimer was mentioned by name in Nolan's previous film Tenet (2020) during a conversation between Priya Singh (Dimple Kapadia) and The Protagonist (John David Washington), seemingly indicating that Nolan already had the idea of what his next film was going to be about.",
-    recommendations: "The Social Network, Dunkirk",
+    recommendations: "The Social Network, The Imitation Game, Dunkirk",
   },
 };
 
