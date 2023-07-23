@@ -46,7 +46,7 @@ export default function MovieThoughts({ backToDefault, showTVThoughts }) {
         </Grid>
         <Grid item xs={12}>
           <h1>Upcoming Reviews</h1>
-          <UpcomingReviewCard title="Barbie (2023) | Greta Gerwig | Margot Robbie, Ryan Gosling" />
+          <UpcomingReviewCard title="The Social Network (2010) | David Fincher | Jesse Eisenberg, Andrew Garfield, Armie Hammer" />
           <UpcomingReviewCard title="Nocturnal Animals (2016) | Tom Ford | Jake Gyllenhaal, Amy Adams, Michael Shannon" />
         </Grid>
         <Grid item xs={12}></Grid>
