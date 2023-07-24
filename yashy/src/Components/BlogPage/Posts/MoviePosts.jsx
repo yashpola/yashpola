@@ -31,7 +31,7 @@ const MoviePosts = {
     trivia: `Tarantino almost did not go through with this movie due to not finding a German-speaking actor who 
     could also pull off the role of Hans Landa. Fortunately he found one in the form of Christoph Waltz (who could 
     also speak French fluently), who then won an Oscar for the role.`,
-    recommendations: "Fury, The Hateful Eight",
+    recommendations: "Django Unchained, Once Upon a Time in Hollywood",
   },
   TrainingDay: {
     name: "Training Day",
@@ -98,14 +98,14 @@ const MoviePosts = {
     trivia: `According to a January 2018 article in Business Insider, a group of psychiatrists studied 400 movies and identified 
     126 psychopathic characters. They chose Javier Bardem's portrayal of Anton Chigurh as the most clinically accurate portrayal of a 
     psychopath.`,
-    recommendations: "Se7en, Zodiac, American Psycho",
+    recommendations: "Se7en, American Psycho",
   },
   Oppenheimer: {
     name: "Oppenheimer",
     title:
       "Oppenheimer (2023) | Christopher Nolan | Cilian Murphy, Emily Blunt, Robert Downey Jr.",
     quote: "I am become Death, the destroyer of worlds.",
-    thoughts: `In what I think is a first for me, it was definitive that Cilian Murhpy should sweep Best Actor. 
+    thoughts: `In what I think is a first for me, it was definitive that a lead of a movie (Cilian Murphy) should sweep Best Actor. 
                I'd only read about the absolute destruction that the Manhattan Project wrought on Oppenheimer's soul, and I wouldn't 
                even have held it against Cilian not to be able to fully replicate such a harrowing psychological crisis. Yet, he knocked
                it out of the park anyway - right from the robotic, defeated voice to the empty eyes that seem to have witnessed 
@@ -132,10 +132,10 @@ const MoviePosts = {
                buttered the explanation of the science underlying the story. 
 
                I went into this movie with tempered expectations; expecting something minimally good out of a Nolan movie but 
-               hoping not to be disappointed. Fortunately, the movie easily overdelivered - selling me on it in the 20 minutes. 
+               hoping not to be disappointed. Fortunately, the movie easily overdelivered - selling me on it in the first 20 minutes. 
                Oppenheimer felt like a time machine sucking me in after the first act and keeping me hooked through the 3 hours till 
                the credits.`,
-    rating: `9/10. The pacing of the film may turn some viewers off, and I feel that a particular sexual scene - 
+    rating: `9/10. The amount of expository dialogue combined with the length of the film may turn some viewers off. I also feel that a particular sexual scene - 
              although evocative and apropos of the tone of the sequence - was not worth the R rating the movie got, and
              may also turn certain segments of the audience off.`,
     trivia:
