@@ -1,5 +1,8 @@
 const MoviePosts = {
   Inglourious: {
+    thumbnail:
+      "https://sceneprints.com/cdn/shop/products/s-l1600_5d2635ae-7ab9-42f4-8cbd-17df6de44142.jpg?v=1639523855",
+    clip: "https://www.youtube.com/watch?v=coS2CdNd7Io&ab_channel=UniversalPicturesAll-Access",
     name: "Inglourious Basterds",
     title:
       "Inglourious Basterds (2009) | Quentin Tarantino | Brad Pitt, Christoph Waltz, Michael Fassbender",
@@ -34,6 +37,9 @@ const MoviePosts = {
     recommendations: "Django Unchained, Once Upon a Time in Hollywood",
   },
   TrainingDay: {
+    thumbnail:
+      "https://images-na.ssl-images-amazon.com/images/I/813ZgyfqT6L._AC_UL750_SR750,750_.jpg",
+    clip: "https://www.youtube.com/watch?v=CJ3Ph5nzJUQ&ab_channel=Max",
     name: "Training Day",
     title:
       "Training Day (2001) | Antoine Fuqua | Denzel Washington, Ethan Hawke",
@@ -67,7 +73,10 @@ const MoviePosts = {
     recommendations: "Heat, L.A. Confidential, American Gangster",
   },
   NoCountry: {
+    thumbnail:
+      "https://alternativemovieposters.com/wp-content/uploads/2022/02/Atli-Sigursveinsson_Nocountryforoldmen.jpg",
     name: "No Country for Old Men",
+    clip: "https://www.youtube.com/watch?v=ZY0DG8rUnCA&ab_channel=Max",
     title:
       "No Country for Old Men (2007) | Coen Brothers | Javier Bardem, Josh Brolin, Tommy Lee Jones",
     quote: "What's the most you ever lost on a coin toss?",
@@ -101,6 +110,9 @@ const MoviePosts = {
     recommendations: "Se7en, American Psycho",
   },
   Oppenheimer: {
+    thumbnail:
+      "https://posterspy.com/wp-content/uploads/2022/08/oppenherimer_web.jpg",
+    clip: "",
     name: "Oppenheimer",
     title:
       "Oppenheimer (2023) | Christopher Nolan | Cilian Murphy, Emily Blunt, Robert Downey Jr.",
@@ -145,3 +157,5 @@ const MoviePosts = {
 };
 
 export default MoviePosts;
+
+// https://i.pinimg.com/736x/78/6b/57/786b57d7c85d6d04d630429b59b1075f.jpg

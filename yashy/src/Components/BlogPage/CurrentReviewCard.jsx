@@ -1,7 +1,8 @@
-import { Accordion, AccordionSummary, AccordionDetails } from "@mui/material";
-import { ExpandMore } from "@mui/icons-material";
+import { Card, Paper, Grid } from "@mui/material";
 
 export default function CurrentReviewCard({
+  thumbnail,
+  clip,
   name,
   title,
   quote,
@@ -11,46 +12,76 @@ export default function CurrentReviewCard({
   recommendations,
 }) {
   return (
-    <Accordion
-      sx={{
-        margin: "auto",
-        marginTop: 3,
-        maxWidth: "70%",
-      }}
-    >
-      <AccordionSummary
+    <>
+      <Card
         sx={{
-          margin: "auto",
-          marginTop: 3,
-          backgroundColor: "#E9BEBE",
-          fontWeight: "bold",
-        }}
-        expandIcon={<ExpandMore />}
-        aria-controls="panel1a-content"
-        id="panel1a-header"
-      >
-        {title}
-      </AccordionSummary>
-      <AccordionDetails
-        sx={{
-          margin: "auto",
-          marginTop: 3,
-          fontFamily: "Roboto",
+          // display: "flex",
+          border: "3px solid #eee",
+          // backgroundColor: "#eee",
+          textAlign: "center",
         }}
       >
-        <p style={{ textAlign: "center" }}>"{quote}"</p>
-        Thoughts: <br />
-        {thoughts}
-        <br />
-        <br />
-        Verdict: {rating}
-        <br />
-        <br />
-        Trivia: {trivia}
-        <br />
-        <br />
-        If you liked {name}, check out: {recommendations}
-      </AccordionDetails>
-    </Accordion>
+        <Card sx={{ padding: 2, textAlign: "left" }}>
+          <Paper
+            sx={{
+              textAlign: "center",
+              padding: 2,
+              backgroundColor: "pink",
+              marginBottom: 2,
+              fontWeight: "bold",
+            }}
+          >
+            {title}
+          </Paper>
+          <Grid container spacing={2}>
+            <Grid item xs={12} sm={2}>
+              <Card
+                style={{
+                  backgroundColor: "black",
+                  padding: 10,
+                  textAlign: "center",
+                }}
+                elevation={2}
+              >
+                <a href={clip} target="_blank">
+                  <img
+                    style={{
+                      border: "3px solid white",
+                      width: "200px",
+                      height: "300px",
+                      objectFit: "cover",
+                      cursor: "pointer",
+                    }}
+                    alt={name}
+                    src={thumbnail}
+                  />
+                </a>
+              </Card>
+            </Grid>
+            <Grid
+              item
+              xs={12}
+              sm={10}
+              style={{ fontFamily: "Times New Roman" }}
+            >
+              <div style={{ textAlign: "center" }}>"{quote}"</div>
+              <br />
+              Thoughts: <br />
+              {thoughts}
+              <br />
+              <br />
+              Verdict: <br /> {rating}
+              <br />
+              <br />
+              Trivia: <br /> {trivia}
+              <br />
+              <br />
+              If you liked {name}, check out: <br />
+              {recommendations}
+            </Grid>
+          </Grid>
+        </Card>
+      </Card>
+    </>
   );
 }

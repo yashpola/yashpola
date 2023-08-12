@@ -1,10 +1,29 @@
 import { Grid, Button } from "@mui/material";
-import { NavigateBefore, NavigateNext } from "@mui/icons-material";
 import CurrentReviewCard from "./CurrentReviewCard";
-import UpcomingReviewCard from "./UpcomingReviewCard";
 import MoviePosts from "./Posts/MoviePosts";
+import { useEffect } from "react";
 
 export default function MovieThoughts({ backToDefault, showTVThoughts }) {
+  const moviePosts = [];
+
+  function stuff() {
+    if (moviePosts.length === 0) {
+      Object.keys(MoviePosts).forEach((key, index) =>
+        moviePosts.push(
+          <Grid item xs={12} sm={4} key={index}>
+            <CurrentReviewCard {...MoviePosts[key]} />
+          </Grid>
+        )
+      );
+
+      console.log(moviePosts);
+    }
+  }
+
+  useEffect(() => {
+    stuff();
+  }, []);
+
   return (
     <>
       <Grid container spacing={2}>
@@ -38,18 +57,11 @@ export default function MovieThoughts({ backToDefault, showTVThoughts }) {
           <h1>Yashy's Movie Thoughts</h1>
         </Grid>
         <Grid item xs={12}>
-          <h1>Current Reviews</h1>
           <CurrentReviewCard {...MoviePosts.Inglourious} />
           <CurrentReviewCard {...MoviePosts.TrainingDay} />
           <CurrentReviewCard {...MoviePosts.NoCountry} />
           <CurrentReviewCard {...MoviePosts.Oppenheimer} />
         </Grid>
-        <Grid item xs={12}>
-          <h1>Upcoming Reviews</h1>
-          <UpcomingReviewCard title="The Social Network (2010) | David Fincher | Jesse Eisenberg, Andrew Garfield, Armie Hammer" />
-          <UpcomingReviewCard title="Nocturnal Animals (2016) | Tom Ford | Jake Gyllenhaal, Amy Adams, Michael Shannon" />
-        </Grid>
-        <Grid item xs={12}></Grid>
       </Grid>
     </>
   );
