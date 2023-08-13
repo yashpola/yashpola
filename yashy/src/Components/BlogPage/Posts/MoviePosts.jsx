@@ -20,13 +20,13 @@ const MoviePosts = {
             out of faulty logic to protect their protagonists? In this one though, Michael Fassbender's Lt. Wicox and a couple of
             the other Basterds die because Wicox blew his cover from not knowing the German way to sign 3 (use thumbs!). 
             Lt. Raine and Pt. Utevich (BJ Novak) get captured because Col. Landa called their 
-            absurd bluff of being Italian in origin. Even something as basic as a movie being based in Nazi Germany having
+            absurd bluff of being Italian in origin. Even something as basic as a movie being based in Nazi-Occupied France having
             70% of its dialog in German and French signals so much more depth of characterization in a war movie. 
-            Sure, war movies can be great even through just giving voices to our American freedom-fighters, and dehumanizing
+            Sure, war movies can be great even through just giving voices to the protagonists, and dehumanizing
             the enemy. But the catharsis of anti-Nazi revenge is that much sweeter when the Nazis have meaningful speaking
             roles and characters, and we then see every bit of light in their life evaporate. For a closing thought, in the lasting words of Lt. Aldo
             Raine: 'Bonjyuur-no'`,
-    rating: `8.5/10. The only significant ding I would give this
+    rating: `8.7/10. The only significant ding I would give this
     movie is that I found Pt. Zoller's (Daniel Bruhl) character somewhat of a misplaced distraction to the focal point 
     of Landa and Raine's arcs. But I understand that his role was functional to highlight an underrepresented aspect of
     the Nazi regime: their utilization of mass-media, specifically cinema, to rally war efforts and
@@ -54,18 +54,17 @@ const MoviePosts = {
                the subject matter of the movie, perhaps my favorite scene is the final one, when Det. Harris 
                fruitlessly tries to rally the support of a community that he had been a part of for decades against 
                Jake Hoyt. Det. Harris had given up on society and believed he deserved to look out for himself 
-               first (to hell with Serve & Protect right?), but in the end his self-serving tendencies became not only
+               first, but in the end his self-serving tendencies became not only
                his downfall, but his demise. In fact, my interpretation is that Harris had thought he was serving the 
                community in some twisted fashion, by being "one of them" and
-               fuelling their gangsterism. This makes the ending more poignant, when the community actually sides with Jake, 
-               again because Harris is wrong in believing that deep down the whole world is as ugly as he is. While the plot 
+               fuelling their gangsterism. This makes the ending more poignant, when the community actually sides with Jake. While the plot 
                - supposedly partially based on a true story - and themes themselves are simple, it is rewarding to see
-              the innocent virtuosity of Jake Hoyt persist in the face of torture (yes, literally) and betrayal. Interestingly, a
+              the innocent virtuosity of Jake Hoyt persist in the face of torture (yes, literally) and betrayal. A
               contrivance often criticized of Training Day is that a girl who Jake saved from being raped in the beginning was conveniently the 
               cousin of a gangster who is enlisted by Harris to kill Jake, thus saving him in the last minute. I don't 
-              agree that this is a contrivance. In fact, I see it as a subtle butterfly effect,  
-              important to the overall theme - because it is another way of rewarding Jake for actually acting like a cop and 
-              saving the girl, against Alonzo's persuasion to ignore street-crimes like theft, rape, and the like.`,
+              agree that this is a contrivance. I see this as a subtle butterfly effect instead,  
+              important to the overall theme - because it rewards Jake for actually doing his duty and 
+              saving the girl, in spite of Alonzo's negative influence.`,
     rating: `I give this movie 7.5/10 because it is a simple story that is carried by very compellingly acted characters. I
     doubt I would have as much fun watching it if not for Denzel and Hawke`,
     trivia:
@@ -154,8 +153,43 @@ const MoviePosts = {
       "J. Robert Oppenheimer was mentioned by name in Nolan's previous film Tenet (2020) during a conversation between Priya Singh (Dimple Kapadia) and The Protagonist (John David Washington), seemingly indicating that Nolan already had the idea of what his next film was going to be about.",
     recommendations: "The Social Network, The Imitation Game, Dunkirk",
   },
+  Sicario: {
+    thumbnail:
+      "https://i.pinimg.com/736x/78/6b/57/786b57d7c85d6d04d630429b59b1075f.jpg",
+    clip: "https://www.youtube.com/watch?v=Uz0IOW8fV64&ab_channel=ApexClips",
+    name: "Sicario",
+    title:
+      "Sicario (2015) | Denis Villeneuve | Emily Blunt, Benicio Del Toro, Josh Brolin",
+    quote:
+      "You're asking me how a watch works. For now, let's just keep an eye on the time.",
+    thoughts: `I watched Sicario expecting a slightly better-than-average action flick centered around 
+               cartel violence in Mexico - a topic touched on many times. However, I was taken completely by Villeneuve's masterful
+               expression of tension, terror and trauma, simply through BGM, POV, and dialogue (or lack thereof). 
+               It could be his taking us through the unethicality of the mission at hand through 
+               the POV of Kate (Blunt) - who's just a little too naive for her seasoned Black Ops colleagues, and for the 
+               violence & depravity in Juarez. Or it could be through cutting most of Benicio Del Toro's dialogue - 
+               for his role as "Alejandro", an insidious "consultant" to the Black Ops team - to bolster his mysterious 
+               nature and elevate the sense of Unknown that shrouds the mission we're witnessing. From the very first scene of the movie where 
+               hundreds of decomposing bodies are found embedded in the walls of a house, to the border crossing scene, 
+               to the end where Kate's life hangs in the balance, it is all a fine work in tension & peril. Roger Deakins' 
+               cinematography is no-less, for the aerial wide-shots grasping the size of the environments that the teams are working in, truly 
+               convey the monumentality of the task ahead of them. Villeneuve and Deakins surely utilized scale to their 
+               advantage in painting pictures of places that may as well eat our protagonists alive. Furthermore the final shot of 
+               the movie works brilliantly, in conjunction with the dual meanings of "Sicario", to blur the lines between 
+               protagonist and antagonist in this movie. Villeneuve tells us at the start that "Sicario" in Ancient Rome referred to a person 
+               who rose up against invaders, and it also means "hitman" in Mexico today. This hints as to the narrative
+               of the movie without boxing any of its stakeholders into "the invaded", "the invador" or "the hitman" 
+               (for all the groups we're shown could've fit these roles equally). The fact that these definitions are 
+               presented at the start is actually in my opinion a cheeky foreshadowing to the uncertainty that the movie imbues in
+               the audience (or Kate, as the audience stand-in) as to who exactly to root for as events unfold. In closing, just like Kate I was hooked 
+               and accelerated into an experience that I found quintessentially tense, and which I was left in awe after
+               dismounting. 
+               `,
+    rating: "8.5/10.",
+    trivia:
+      "The score of Sicario was inspired from Jaws (1975), to exude ominous and sinister themes",
+    recommendations: "Prisoners, Incendies, Argo",
+  },
 };
 
 export default MoviePosts;
-
-// https://i.pinimg.com/736x/78/6b/57/786b57d7c85d6d04d630429b59b1075f.jpg

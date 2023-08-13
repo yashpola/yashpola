@@ -34,6 +34,17 @@ export default function ProjectCard({
       <Grid container spacing={2}>
         <Grid item xs={12} sm={6}>
           <List>
+            <u>Highlighted Features</u>
+            <ListItem>
+              A repository and grade-based analysis of modules,
+            </ListItem>
+            <ListItem>Study-time tracking and motivation,</ListItem>
+            <ListItem>
+              Customization through color scheme, profile picture, username
+            </ListItem>
+          </List>
+          <List>
+            <u>References</u>
             <ListItem>
               <Article sx={{ color: "red" }} />
               &nbsp;

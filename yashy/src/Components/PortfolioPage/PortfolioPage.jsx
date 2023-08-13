@@ -11,7 +11,7 @@ export default function PortfolioPage() {
           <ProjectCard
             numCards={2}
             projectTitle="A.R.I.A."
-            projectSummary="Website-based college study assistant (Work-in-Progress)"
+            projectSummary="Website-based study assistant for NUS students"
             testLink="https://orbital-aria.vercel.app/"
             currentDocumentation="https://docs.google.com/document/d/1LfagfeOdkiKYe6ysc-XoEnK6H7rnUqI2WzRXayJLmAk/edit?usp=sharing"
             projectDemo="https://drive.google.com/file/d/1wpu2ayaO2gEmV-KSf4ePeZtkgYs0QHx8/view?usp=sharing"

@@ -1,4 +1,4 @@
-import { Card, Paper, Grid } from "@mui/material";
+import { Container, Card, Paper, Grid } from "@mui/material";
 
 export default function CurrentReviewCard({
   thumbnail,
@@ -13,15 +13,8 @@ export default function CurrentReviewCard({
 }) {
   return (
     <>
-      <Card
-        sx={{
-          // display: "flex",
-          border: "3px solid #eee",
-          // backgroundColor: "#eee",
-          textAlign: "center",
-        }}
-      >
-        <Card sx={{ padding: 2, textAlign: "left" }}>
+      <>
+        <Card sx={{ padding: 2 }}>
           <Paper
             sx={{
               textAlign: "center",
@@ -34,36 +27,36 @@ export default function CurrentReviewCard({
             {title}
           </Paper>
           <Grid container spacing={2}>
-            <Grid item xs={12} sm={2}>
-              <Card
+            <Grid item xs={12} sm={4}>
+              <Container
                 style={{
-                  backgroundColor: "black",
-                  padding: 10,
+                  display: "flex",
                   textAlign: "center",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  backgroundColor: "#B19A7A",
+                  border: "5px solid #906E3E",
+                  height: "100%",
+                  padding: 5,
                 }}
                 elevation={2}
               >
                 <a href={clip} target="_blank">
                   <img
                     style={{
-                      border: "3px solid white",
                       width: "200px",
                       height: "300px",
                       objectFit: "cover",
                       cursor: "pointer",
+                      border: "2px solid white",
                     }}
                     alt={name}
                     src={thumbnail}
                   />
                 </a>
-              </Card>
+              </Container>
             </Grid>
-            <Grid
-              item
-              xs={12}
-              sm={10}
-              style={{ fontFamily: "Times New Roman" }}
-            >
+            <Grid item xs={12} sm={8} style={{ fontFamily: "Times New Roman" }}>
               <div style={{ textAlign: "center" }}>"{quote}"</div>
               <br />
               Thoughts: <br />
@@ -81,7 +74,7 @@ export default function CurrentReviewCard({
             </Grid>
           </Grid>
         </Card>
-      </Card>
+      </>
     </>
   );
 }
