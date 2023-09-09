@@ -1,29 +1,8 @@
-import { Grid, Button } from "@mui/material";
+import { Grid, Button, TextField } from "@mui/material";
 import CurrentReviewCard from "./CurrentReviewCard";
 import MoviePosts from "./Posts/MoviePosts";
-import { useEffect } from "react";
 
 export default function MovieThoughts({ backToDefault, showTVThoughts }) {
-  const moviePosts = [];
-
-  function stuff() {
-    if (moviePosts.length === 0) {
-      Object.keys(MoviePosts).forEach((key, index) =>
-        moviePosts.push(
-          <Grid item xs={12} sm={4} key={index}>
-            <CurrentReviewCard {...MoviePosts[key]} />
-          </Grid>
-        )
-      );
-
-      console.log(moviePosts);
-    }
-  }
-
-  useEffect(() => {
-    stuff();
-  }, []);
-
   return (
     <>
       <Grid container spacing={2}>
@@ -57,11 +36,14 @@ export default function MovieThoughts({ backToDefault, showTVThoughts }) {
           <h1>Yashy's Movie Thoughts</h1>
         </Grid>
         <Grid item xs={12}>
-          <CurrentReviewCard {...MoviePosts.Inglourious} />
-          <CurrentReviewCard {...MoviePosts.TrainingDay} />
-          <CurrentReviewCard {...MoviePosts.NoCountry} />
-          <CurrentReviewCard {...MoviePosts.Oppenheimer} />
-          <CurrentReviewCard {...MoviePosts.Sicario} />
+          <>
+            <CurrentReviewCard {...MoviePosts.Inglourious} />
+            <CurrentReviewCard {...MoviePosts.TrainingDay} />
+            <CurrentReviewCard {...MoviePosts.NoCountry} />
+            <CurrentReviewCard {...MoviePosts.Oppenheimer} />
+            <CurrentReviewCard {...MoviePosts.Sicario} />
+            <CurrentReviewCard {...MoviePosts.TWWB} />
+          </>
         </Grid>
       </Grid>
     </>
