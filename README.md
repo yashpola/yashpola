@@ -8,6 +8,9 @@ Hello, my name's Yash :) 🥂
 <a href="https://www.instagram.com/yashypola/"> 
    <img src="https://raw.githubusercontent.com/twbs/icons/main/icons/instagram.svg" width="25px" alt="instagram"/> 
 </a> 
+<a href="https://yashwit.com"> 
+   <img src="https://raw.githubusercontent.com/twbs/icons/main/icons/window-desktop.svg" width="25px" alt="website"/> 
+</a> 
 
 </div>
 
@@ -19,8 +22,6 @@ Hello, my name's Yash :) 🥂
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="90px" alt="java" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="90px" alt="java" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="90px" alt="javascript" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="90px" alt="html5" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="90px" alt="css3" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="90px" alt="react" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg" width="90px" alt="react" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="90px" alt="html" />
