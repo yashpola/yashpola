@@ -43,6 +43,7 @@ export default function MovieThoughts({ backToDefault, showTVThoughts }) {
             <CurrentReviewCard {...MoviePosts.Oppenheimer} />
             <CurrentReviewCard {...MoviePosts.Sicario} />
             <CurrentReviewCard {...MoviePosts.TWWB} />
+            <CurrentReviewCard {...MoviePosts.KOTF} />
           </>
         </Grid>
       </Grid>

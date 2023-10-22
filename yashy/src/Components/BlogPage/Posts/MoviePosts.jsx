@@ -146,7 +146,7 @@ const MoviePosts = {
                hoping not to be disappointed. Fortunately, the movie easily overdelivered - selling me on it in the first 20 minutes. 
                Oppenheimer felt like a time machine sucking me in after the first act and keeping me hooked through the 3 hours till 
                the credits.`,
-    rating: `8.6/10. The amount of expository dialogue combined with the length of the film may turn some viewers off. I also feel that a particular sexual scene - 
+    rating: `8.4/10. The amount of expository dialogue combined with the length of the film may turn some viewers off. I also feel that a particular sexual scene - 
              although evocative and apropos of the tone of the sequence - was not worth the R rating the movie got, and
              may also turn certain segments of the audience off.`,
     trivia:
@@ -185,7 +185,7 @@ const MoviePosts = {
                and accelerated into an experience that I found quintessentially tense, and which I was left in awe after
                dismounting. 
                `,
-    rating: "8.5/10.",
+    rating: "8.8/10.",
     trivia:
       "The score of Sicario was inspired from Jaws (1975), to exude ominous and sinister themes",
     recommendations: "Prisoners, Incendies, Argo",
@@ -218,10 +218,45 @@ const MoviePosts = {
     hunch in the movie especially towards the end from the backbreaking oil-drilling he's done, as well as his alcoholism). 
     To end off, TWBB was my first PTA film but I think it was a wonderfully written story; appearing like a simple - 
     even mundane - story about oil at the start, and then justifying its title by the end with an almost poetic beauty.`,
-    rating: "8.4/10",
+    rating: "8.5/10",
     trivia:
       "TWBB and No Country for Old Men were shot in the same vicinity. TWBB even disrupted the filming of NCOM due to an explosion on the set of TWBB causing smoke to billow",
     recommendations: "No Country for Old Men",
+  },
+  KOTF: {
+    thumbnail: "https://pbs.twimg.com/media/FxOHU6DWcAA4HRb.jpg:large",
+    clip: "https://www.youtube.com/watch?v=sTha2f-1Ivk&ab_channel=AppleTV",
+    name: "Killers of the Flower Moon",
+    title:
+      "Killers of the Flower Moon (2023) | Martin Scorsese | Lily Gladstone, Leonardo DiCaprio, Robert De Niro",
+    quote: "Can you find the wolves in this picture?",
+    thoughts: `The decision by Scorcese to shift the focus of the story from the FBI investigation of a series of Osage murders to the marriage 
+            between Mollie - an Osage woman trapped in the middle of the depravity - and Ernest (Gladstone, DiCaprio) made this movie for me. Not only did this reframe the focus of the movie from 
+            a typical "whodunnit" to the visceral injustice felt by the Osage, but it allowed for the biting portrayal 
+            of Ernest - trapped in between his love for Mollie and the grotesque machinations of his uncle William "King" Hale (De Niro).
+            Three things really elevated the movie for me - the acting, the cinematography, and the screenplay. Acting wise, 
+            Gladstone was phenomenal in eliciting rage and sorrow in the abuse she suffered at the hands of Hale and his 
+            cronies. Even having sparse dialogue, her expressions and body language conveyed a rich tapestry of emotions - an 
+            example being her silent but scathing disappointment in Ernest when he doesn't admit to the truth of poisoning
+            her insulin. DiCaprio meanwhile transforms himself into the simple-minded, meek-mannered character of Ernest; truly earning 
+            praise during the court testimony scene when it breaks him to confess to enabling his uncle's borderline evil 
+            exploits. The cinematography served to remind audiences that this is a historical narration above being 
+            merely a movie, with the blending in of B&W (possibly modern recreated) footage of the Osage people, and 
+            chilling sequences of shots of murdered Osage akin to casket photos. The use of tint was very deliberate in creating
+            different auras in the film - rich and lively for the culturally delightful Osage celebrations, blueing and grey for Hale's 
+            schemes and the court scenes, and orange and red for Mollie's worsening health. Through acting
+            and cinematography alone I can truly appreciate KOTF as a fine example of cinema. Still, there is the 
+            screenplay to praise. It was obvious how much effort Scorcese put into doing justice to the 
+            Osage, while still achieving a nuanced portrayal by telling much of the story from the perspective of 
+            Ernest. Showing Ernest's realisation that he cannot ignorantly support his uncle while also wanting a family with 
+            Mollie was very effective for example, in illustrating how one doesn't dread poison they are enabling
+            until it comes back to corrupt the water they drink. All in all, KOTF is a very finely narrated, heart-wrenching story 
+            that I am glad Scorcese picked up. I've appreciated many movies in the past and while this one isn't 
+            necessarily objectively better than them, I truly felt Scorcese's dedication to cinema with this one.`,
+    rating: "8.8/10",
+    trivia:
+      "Lily Gladstone was considering a career change before being contacted by Martin Scorsese for the role of Mollie Burkhart",
+    recommendations: "Oppenheimer, The Irishman, Memories of Murder",
   },
 };
 

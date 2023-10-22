@@ -52,9 +52,13 @@ export default function IntroSection() {
           <ListItem>Competitive Interests: Debate & Oratory</ListItem>
         </List>
         <List>
-          Current Engagements (Summer '23):
+          Current Engagements (Fall Semester 23/24):
           <ListItem>Product Head @NUS Google Developer Student Clubs</ListItem>
-          <ListItem>NUSC Community Impact Project</ListItem>
+          <ListItem>UI/UX Designer @NUS Fintech Society</ListItem>
+          <ListItem>Programming Methodology II (Java)</ListItem>
+          <ListItem>Intro to Networks (Python)</ListItem>
+          <ListItem>Database Systems (PostgreSQL)</ListItem>
+          <ListItem>Digital Ethics</ListItem>
         </List>
         <Paper
           sx={{
