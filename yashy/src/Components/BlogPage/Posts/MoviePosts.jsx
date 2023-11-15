@@ -258,6 +258,19 @@ const MoviePosts = {
       "Lily Gladstone was considering a career change before being contacted by Martin Scorsese for the role of Mollie Burkhart",
     recommendations: "Oppenheimer, The Irishman, Memories of Murder",
   },
+  TheBatman: {
+    thumbnail:
+      "https://i.pinimg.com/736x/13/80/fc/1380fc624653283391862568097fb647.jpg",
+    clip: "https://youtu.be/761uRaAoW00?feature=shared",
+    name: "The Batman",
+    title:
+      "The Batman (2022) | Matt Reeves | Robert Pattinson, Paul Dano, Zoe Kravitz, Jeffrey Wright",
+    quote: "They think I'm hiding in the shadows, but I am the shadows.",
+    thoughts: "Coming soon!",
+    rating: "8/10",
+    trivia: "Coming soon!",
+    recommendations: "Se7en, Joker, Zodiac",
+  },
 };
 
 export default MoviePosts;

@@ -35,42 +35,19 @@ export default function ProjectCard({
         <Grid item xs={12} sm={6}>
           <List>
             <u>Highlighted Features</u>
+            <ListItem>Both member and admin-only views,</ListItem>
             <ListItem>
-              A repository and grade-based analysis of modules,
+              Static clicking and Dynamic drag-and-drop versions,
             </ListItem>
-            <ListItem>Study-time tracking and motivation,</ListItem>
-            <ListItem>
-              Customization through color scheme, profile picture, username
-            </ListItem>
+            <ListItem>Mobile-view designed as well</ListItem>
           </List>
           <List>
             <u>References</u>
             <ListItem>
-              <Article sx={{ color: "red" }} />
-              &nbsp;
-              <a href={currentDocumentation} title="ARIA's documentation">
-                Current Documentation
-              </a>
-            </ListItem>
-            <ListItem>
-              <OndemandVideo sx={{ color: "red" }} />
-              &nbsp;
-              <a href={projectDemo} title="ARIA's Demo Video">
-                Product Video
-              </a>
-            </ListItem>
-            <ListItem>
               <BugReport sx={{ color: "red" }} />
               &nbsp;
               <a href={testLink} title="Try out ARIA">
-                Try it Now
-              </a>
-            </ListItem>
-            <ListItem>
-              <GitHub sx={{ color: "red" }} />
-              &nbsp;
-              <a href={projectIssues} title="Feedback on ARIA">
-                Open an Issue
+                Check it out
               </a>
             </ListItem>
           </List>
