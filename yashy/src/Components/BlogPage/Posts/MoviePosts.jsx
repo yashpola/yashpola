@@ -26,11 +26,6 @@ const MoviePosts = {
             the enemy. But the catharsis of anti-Nazi revenge is that much sweeter when the Nazis have meaningful speaking
             roles and characters, and we then see every bit of light in their life evaporate. For a closing thought, in the lasting words of Lt. Aldo
             Raine: 'Bonjyuur-no'`,
-    rating: `8.8/10. The only significant ding I would give this
-    movie is that I found Pt. Zoller's (Daniel Bruhl) character somewhat of a misplaced distraction to the focal point 
-    of Landa and Raine's arcs. But I understand that his role was functional to highlight an underrepresented aspect of
-    the Nazi regime: their utilization of mass-media, specifically cinema, to rally war efforts and
-    fluff up their supposed heroism`,
     trivia: `Tarantino almost did not go through with this movie due to not finding a German-speaking actor who 
     could also pull off the role of Hans Landa. Fortunately he found one in the form of Christoph Waltz (who could 
     also speak French fluently), who then won an Oscar for the role.`,
@@ -65,8 +60,6 @@ const MoviePosts = {
               agree that this is a contrivance. I see this as a subtle butterfly effect instead,  
               important to the overall theme - because it rewards Jake for actually doing his duty and 
               saving the girl, in spite of Alonzo's negative influence.`,
-    rating: `I give this movie 7.5/10 because it is a simple story that is carried by very compellingly acted characters. I
-    doubt I would have as much fun watching it if not for Denzel and Hawke`,
     trivia:
       "Tobey Maguire, Mark Wahlberg, and Eminem were also considered for the role of Jake Hoyt",
     recommendations: "Heat, L.A. Confidential, American Gangster",
@@ -102,7 +95,6 @@ const MoviePosts = {
                criticized NCFOM as pointless and self-indulgent, but I think it is a movie driven very strongly by its choices in writing and direction
                to deliver a certain message and does so successfully. 
                `,
-    rating: "You need to call it. I can't call it for you.",
     trivia: `According to a January 2018 article in Business Insider, a group of psychiatrists studied 400 movies and identified 
     126 psychopathic characters. They chose Javier Bardem's portrayal of Anton Chigurh as the most clinically accurate portrayal of a 
     psychopath.`,
@@ -146,9 +138,6 @@ const MoviePosts = {
                hoping not to be disappointed. Fortunately, the movie easily overdelivered - selling me on it in the first 20 minutes. 
                Oppenheimer felt like a time machine sucking me in after the first act and keeping me hooked through the 3 hours till 
                the credits.`,
-    rating: `8.4/10. The amount of expository dialogue combined with the length of the film may turn some viewers off. I also feel that a particular sexual scene - 
-             although evocative and apropos of the tone of the sequence - was not worth the R rating the movie got, and
-             may also turn certain segments of the audience off.`,
     trivia:
       "J. Robert Oppenheimer was mentioned by name in Nolan's previous film Tenet (2020) during a conversation between Priya Singh (Dimple Kapadia) and The Protagonist (John David Washington), seemingly indicating that Nolan already had the idea of what his next film was going to be about.",
     recommendations: "The Social Network, The Imitation Game, Dunkirk",
@@ -185,7 +174,6 @@ const MoviePosts = {
                and accelerated into an experience that I found quintessentially tense, and which I was left in awe after
                dismounting. 
                `,
-    rating: "8.8/10.",
     trivia:
       "The score of Sicario was inspired from Jaws (1975), to exude ominous and sinister themes",
     recommendations: "Prisoners, Incendies, Argo",
@@ -253,7 +241,6 @@ const MoviePosts = {
             until it comes back to corrupt the water they drink. All in all, KOTF is a very finely narrated, heart-wrenching story 
             that I am glad Scorcese picked up. I've appreciated many movies in the past and while this one isn't 
             necessarily objectively better than them, I truly felt Scorcese's dedication to cinema with this one.`,
-    rating: "8.8/10",
     trivia:
       "Lily Gladstone was considering a career change before being contacted by Martin Scorsese for the role of Mollie Burkhart",
     recommendations: "Oppenheimer, The Irishman, Memories of Murder",
@@ -266,9 +253,33 @@ const MoviePosts = {
     title:
       "The Batman (2022) | Matt Reeves | Robert Pattinson, Paul Dano, Zoe Kravitz, Jeffrey Wright",
     quote: "They think I'm hiding in the shadows, but I am the shadows.",
-    thoughts: "Coming soon!",
-    rating: "8/10",
-    trivia: "Coming soon!",
+    thoughts: `The Batman is one of the more artistic films I've seen, insofar as several frames of the movie are 
+               reminiscent of paintings - each extremely evocative in establishing an environment of eeriness, almost satanic.
+               In fact, I'm already hooked at the opening sequence - a standout in my opinion amongst 
+               not just movies of this genre but movies in general - which paints the titular character as something 
+               primal and fear-inspiring. To clarify, it is not the specific aura ("primary and fear-inspiring") 
+               that I am impressed by necessarily but the use of the physical setting combined with background score and 
+               lighting to create a gripping abstraction of the Batman without even showing him on screen. 
+               Many comparisons have been made between The Batman and Se7en (1995), specifically in-terms of the 
+               serial killer plot and the process of discovering his crimes and identity. I think this is fair, but 
+               special commendation has to be given to Matt Reeves for contextualising it still to Gotham, the Batman 
+               and his infamous Rogues Gallery. For example, over the course of the crimes and uptill neutralising 
+               the Riddler, we see the Batman's character development from being only a symbol of fear to 
+               a beacon of hope (apropos of this, the shot of Batman leading the stranded to safety with a 
+               flare was particularly effective, especially as it subverted the bright glowing red color from 
+               being associated with fear and danger to being associated with safety and hope). Indeed, the whole 
+               series of crimes in The Batman leading up to the final act were all just a framework for developing 
+               a younger Batman's troubled relationship with Gotham. To keep this review concise, I'll comment briefly
+               on the comparison of this movie to The Dark Knight (2008). Many people often say TDK is a better movie
+               and The Batman is a better Batman movie. I find this an interesting soundbite but it really all comes down
+               to what you, as a viewer, appreciate in movies more. I have an affinity for the artistry of a movie - 
+               set design, lighting, background score & soundtrack, and cinematography - which is why The Batman takes it
+               ever so slightly for me. Of course, if you're one for dialogue, characterization and how effectively a 
+               movie tackles larger, more realistic issues - then TDK would be the clear option for you. Ultimately, I 
+               think both movies are brilliant and for The Batman specifically, 3 hours was barely enough for me to let
+               the technical and creative talent put into this movie soak in.`,
+    trivia:
+      "Robert Pattinson's Bruce Wayne was heavily based off Kurt Cobain - focusing on reclusivity and a complicated relationship with fame instead of the typical portrayal as a socialite playboy.",
     recommendations: "Se7en, Joker, Zodiac",
   },
 };

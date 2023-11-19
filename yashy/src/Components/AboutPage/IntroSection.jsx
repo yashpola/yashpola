@@ -46,13 +46,13 @@ export default function IntroSection() {
         </b>
         <br />
         <br />
-        Tidbits:
+        <u>Tidbits</u>:
         <List>
           <ListItem>Casual Interests: Games, Music, Driving, Film</ListItem>
           <ListItem>Competitive Interests: Debate & Oratory</ListItem>
         </List>
+        <u>Current Engagements (Fall Semester 23/24):</u>
         <List>
-          Current Engagements (Fall Semester 23/24):
           <ListItem>Product Head @NUS Google Developer Student Clubs</ListItem>
           <ListItem>UI/UX Designer @NUS Fintech Society</ListItem>
           <ListItem>Programming Methodology II (Java)</ListItem>

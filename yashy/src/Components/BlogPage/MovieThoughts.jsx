@@ -38,12 +38,13 @@ export default function MovieThoughts({ backToDefault, showTVThoughts }) {
         <Grid item xs={12}>
           <>
             <CurrentReviewCard {...MoviePosts.Inglourious} />
-            <CurrentReviewCard {...MoviePosts.TrainingDay} />
-            <CurrentReviewCard {...MoviePosts.NoCountry} />
-            <CurrentReviewCard {...MoviePosts.Oppenheimer} />
             <CurrentReviewCard {...MoviePosts.Sicario} />
-            <CurrentReviewCard {...MoviePosts.TWWB} />
             <CurrentReviewCard {...MoviePosts.KOTF} />
+            <CurrentReviewCard {...MoviePosts.NoCountry} />
+            <CurrentReviewCard {...MoviePosts.TWWB} />
+            <CurrentReviewCard {...MoviePosts.Oppenheimer} />
+            <CurrentReviewCard {...MoviePosts.TheBatman} />
+            <CurrentReviewCard {...MoviePosts.TrainingDay} />
           </>
         </Grid>
       </Grid>
