@@ -20,6 +20,8 @@ export default function PortfolioPage() {
             projectIssues="https://github.com/yashpola/OrbitalARIA/issues"
             projectImg={ariaScreenShot}
           />
+        </Grid>
+        <Grid item xs={12}>
           <ProjectCardFintech
             numCards={2}
             projectTitle="NUS Fintech HR System"
