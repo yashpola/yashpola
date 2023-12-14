@@ -7,25 +7,11 @@ const MoviePosts = {
     title:
       "Inglourious Basterds (2009) | Quentin Tarantino | Brad Pitt, Christoph Waltz, Michael Fassbender",
     quote: "I think this might just be my masterpiece",
-    thoughts: `What worked extremely well for this movie is that it fully embraces itself as an anti-Nazi revisionist
-            revenge fantasy. Specifically through the cathartic comeuppance of
-            Col. Hans Landa (Christoph Waltz) of the SchutzStaffel; a "Jew Hunter" who takes pleasure in exerting power
-            over those who have none. Importantly, Tarantino does not force catharsis by exploiting Holocaust tragedy.
-            Instead, he builds tension through setting up the meticuluous, cunning, cruel, seemingly immovable Landa against
-            the violent, Nazi-despising, unstoppable force of Lt. Aldo Raine (Brad Pitt). The movie thus centers itself
-            around the inevitable clash between Landa and Raine, and this I feel is what elevates it beyond generic 
-            anti-Nazi revenge porn to a gripping tale of an oppressor who represents Nazi sadism, that gets a gruesome, 
-            gratitutous comeuppance at the end. Another aspect of this movie that truly elevates it, is 
-            attention to detail. How many movies do we watch that invent miracles
-            out of faulty logic to protect their protagonists? In this one though, Michael Fassbender's Lt. Wicox and a couple of
-            the other Basterds die because Wicox blew his cover from not knowing the German way to sign 3 (use thumbs!). 
-            Lt. Raine and Pt. Utevich (BJ Novak) get captured because Col. Landa called their 
-            absurd bluff of being Italian in origin. Even something as basic as a movie being based in Nazi-Occupied France having
-            70% of its dialog in German and French signals so much more depth of characterization in a war movie. 
-            Sure, war movies can be great even through just giving voices to the protagonists, and dehumanizing
-            the enemy. But the catharsis of anti-Nazi revenge is that much sweeter when the Nazis have meaningful speaking
-            roles and characters, and we then see every bit of light in their life evaporate. For a closing thought, in the lasting words of Lt. Aldo
-            Raine: 'Bonjyuur-no'`,
+    thoughts: `What worked extremely well for this movie is that it fully embraces itself as an anti-Nazi revisionist revenge fantasy. Specifically through the cathartic comeuppance of Col. Hans Landa (Christoph Waltz) of the SchutzStaffel; a "Jew Hunter" who takes pleasure in exerting power over those who have none. Importantly, Tarantino does not force catharsis by exploiting Holocaust tragedy. Instead, he builds tension through setting up the meticuluous, cunning, cruel, seemingly immovable Landa against the violent, Nazi-despising, unstoppable force of Lt. Aldo Raine (Brad Pitt). The movie thus centers itself around the inevitable clash between Landa and Raine, and this I feel is what elevates it beyond generic anti-Nazi revenge porn to a gripping tale of an oppressor who represents Nazi sadism, that gets a gruesome, gratitutous comeuppance at the end.
+
+    Another aspect of this movie that truly elevates it, is attention to detail. How many movies do we watch that invent miracles out of faulty logic to protect their protagonists? In this one though, Michael Fassbender's Lt. Wicox and a couple of the other Basterds die because Wicox blew his cover from not knowing the German way to sign 3 (use thumbs!). Lt. Raine and Pt. Utevich (BJ Novak) get captured because Col. Landa called their absurd bluff of being Italian in origin. Even something as basic as a movie being based in Nazi-Occupied France having 70% of its dialog in German and French signals so much more depth of characterization in a war movie.
+    
+    Sure, war movies could be great even through just giving voices to the protagonists, and dehumanizing the enemy. But the catharsis of anti-Nazi revenge is that much sweeter when the Nazis have meaningful speaking roles and characters, and we then see every bit of light in their life evaporate. For a closing thought, in the lasting words of Lt. Aldo Raine: 'Bonjyuur-no'`,
     trivia: `Tarantino almost did not go through with this movie due to not finding a German-speaking actor who 
     could also pull off the role of Hans Landa. Fortunately he found one in the form of Christoph Waltz (who could 
     also speak French fluently), who then won an Oscar for the role.`,
@@ -39,27 +25,9 @@ const MoviePosts = {
     title:
       "Training Day (2001) | Antoine Fuqua | Denzel Washington, Ethan Hawke",
     quote: "King Kong ain't got shit on me!",
-    thoughts: `I did not know going into this movie that it was about police corruption. However, this worked brilliantly because 
-               as the events unfolded, I truly shared Officer Jake Hoyt's (Ethan Hawke) rising sense of suspicion and horror towards
-               his bent training officer Det. Alonzo Harris (Denzel Washington). Apropos of that, Washington delivered an 
-               effortlessly slick performance as usual, easing gracefully into the role of a corrupt detective who 
-               commands attention, but is really a yard bully who deserves only to have his gross facade blown wide open. 
-               The rookie-veteran chemistry between Hawke and Washington was of the essence to the success of the 
-               movie, with both actors playing their characters off each other in a truly enjoyable fashion. Vis-a-vis 
-               the subject matter of the movie, perhaps my favorite scene is the final one, when Det. Harris 
-               fruitlessly tries to rally the support of a community that he had been a part of for decades against 
-               Jake Hoyt. Det. Harris had given up on society and believed he deserved to look out for himself 
-               first, but in the end his self-serving tendencies became not only
-               his downfall, but his demise. In fact, my interpretation is that Harris had thought he was serving the 
-               community in some twisted fashion, by being "one of them" and
-               fuelling their gangsterism. This makes the ending more poignant, when the community actually sides with Jake. While the plot 
-               - supposedly partially based on a true story - and themes themselves are simple, it is rewarding to see
-              the innocent virtuosity of Jake Hoyt persist in the face of torture (yes, literally) and betrayal. A
-              contrivance often criticized of Training Day is that a girl who Jake saved from being raped in the beginning was conveniently the 
-              cousin of a gangster who is enlisted by Harris to kill Jake, thus saving him in the last minute. I don't 
-              agree that this is a contrivance. I see this as a subtle butterfly effect instead,  
-              important to the overall theme - because it rewards Jake for actually doing his duty and 
-              saving the girl, in spite of Alonzo's negative influence.`,
+    thoughts: `I did not know going into this movie that it was about police corruption. However, this worked brilliantly because as the events unfolded, I shared Officer Jake Hoyt's (Ethan Hawke) rising sense of suspicion and horror towards his bent training officer Det. Alonzo Harris (Denzel Washington). Apropos of that, Washington delivered an effortlessly slick performance as usual, easing gracefully into the role of a corrupt detective who commands attention, but is really a yard bully who deserves only to have his gross facade blown wide open. The rookie-veteran chemistry between Hawke and Washington was of the essence to the success of the movie, with both actors playing their characters off each other in a truly enjoyable fashion.
+
+    Bottom-line: a very enjoyable movie and one of the greats to me in terms of performance and tension.`,
     trivia:
       "Tobey Maguire, Mark Wahlberg, and Eminem were also considered for the role of Jake Hoyt",
     recommendations: "Heat, L.A. Confidential, American Gangster",
@@ -108,36 +76,14 @@ const MoviePosts = {
     title:
       "Oppenheimer (2023) | Christopher Nolan | Cilian Murphy, Emily Blunt, Robert Downey Jr.",
     quote: "I am become Death, the destroyer of worlds.",
-    thoughts: `In what I think is a first for me, it was definitive that a lead of a movie (Cilian Murphy) should sweep Best Actor. 
-               I'd only read about the absolute destruction that the Manhattan Project wrought on Oppenheimer's soul, and I wouldn't 
-               even have held it against Cilian not to be able to fully replicate such a harrowing psychological crisis. Yet, he knocked
-               it out of the park anyway - right from the robotic, defeated voice to the empty eyes that seem to have witnessed 
-               eons of misery. In general, there are two things I particularly liked about Oppenheimer that I think should earn Nolan Best 
-               Director if not Best Picture. 
-              
-               First, I believe that this is Nolan's best film in terms of the artistic-visual experience. 
-               Nolan likes incorporating neat little explanations into his movies (the famous wormhole explanation in Interstellar, 
-               or the explanation of reverse time in Tenet) but in Oppenheimer he showed a lot more than he told. 
-               The starry, stringy, spacey visuals of the hidden Quantum Universe that eluded Oppenheimer; the firey, 
-               snappy chemical reactions inside the envisioned bomb. These brought a life to the story of Oppenheimer, and more 
-               importantly the science in his life, in a way I've never seen before. I liked Nolan's decision to include more 
-               visuals of the story leading up to the bomb (Trinity, the B-52 that dropped the bombs), rather than making a 
-               spectacle of Hiroshima and Nagasaki itself. Oppenheimer didn't get to actually see the final bombing - only 
-               anticipate it as well as ruminate in its aftermath, and this is what Nolan brought to us. Nolan's choice to use 
-               Black&White for the objective, and color for the subjective, is also a choice I found to be intelligent not only 
-               to tell his non-chronological story, but also emphasize further that a bulk of the movie is entirely from the perspective 
-               of Oppenheimer. 
-              
-               The second thing I liked, was that the dialogue in Oppenheimer packs a lot of wit into sharply-delivered, almost cutting exchanges
-               between characters. It reminded me of a typical David Fincher and/or Aaron Sorkin film (A Few Good Men, Fight Club). 
-               I found myself genuinely immersing myself in the marriage of the crisp dialogue and 
-               the actors selling them with their full determination. Apart from the visuals, the smooth dialogue really
-               buttered the explanation of the science underlying the story. 
+    thoughts: `In what I think is a first for me, it was definitive that a lead of a movie (Cillian Murphy) should sweep Best Actor. I'd only read about the absolute destruction that the Manhattan Project wrought on Oppenheimer's soul, and I wouldn't even have held it against Cillian not to be able to fully replicate such a harrowing psychological crisis. Yet, he knocked it out of the park anyway - right from the robotic, defeated voice to the empty eyes that seem to have witnessed eons of misery.
 
-               I went into this movie with tempered expectations; expecting something minimally good out of a Nolan movie but 
-               hoping not to be disappointed. Fortunately, the movie easily overdelivered - selling me on it in the first 20 minutes. 
-               Oppenheimer felt like a time machine sucking me in after the first act and keeping me hooked through the 3 hours till 
-               the credits.`,
+    In general, there are two things I particularly liked about Oppenheimer.
+    First, I believe that this is Nolan's best film in terms of the artistic-visual experience. Nolan likes incorporating neat little explanations into his movies (the famous wormhole explanation in Interstellar, or the explanation of reverse time in Tenet) but in Oppenheimer he showed a lot more than he told. The starry, stringy, spacey visuals of the hidden Quantum Universe that eluded Oppenheimer; the firey, snappy chemical reactions inside the envisioned bomb. These brought a life to the story of Oppenheimer, and more importantly the science in his life, in a way I've never seen before. I liked Nolan's decision to include more visuals of the story leading up to the bomb (Trinity, the B-52 that dropped the bombs), rather than making a spectacle of Hiroshima and Nagasaki itself. Oppenheimer didn't get to actually see the final bombing - only anticipate it as well as ruminate in its aftermath, and this is what Nolan brought to us. Nolan's choice to use Black&White for the objective, and color for the subjective, is also a choice I found to be intelligent not only to tell his non-chronological story, but also emphasize further that a bulk of the movie is entirely from the perspective of Oppenheimer.
+    
+    The second thing I liked, was that the dialogue in Oppenheimer packs a lot of wit into sharply-delivered, almost cutting exchanges between characters. It reminded me of a typical David Fincher and/or Aaron Sorkin film (A Few Good Men, Fight Club). I found myself genuinely immersing myself in the marriage of the crisp dialogue and the actors selling them with their full determination. Apart from the visuals, the smooth dialogue really buttered the explanation of the science underlying the story.
+    
+    I went into this movie with tempered expectations; expecting something minimally good out of a Nolan movie but hoping not to be disappointed. Fortunately, the movie easily overdelivered - selling me on it in the first 20 minutes. Oppenheimer felt like a time machine sucking me in after the first act and keeping me hooked through the 3 hours till the credits.`,
     trivia:
       "J. Robert Oppenheimer was mentioned by name in Nolan's previous film Tenet (2020) during a conversation between Priya Singh (Dimple Kapadia) and The Protagonist (John David Washington), seemingly indicating that Nolan already had the idea of what his next film was going to be about.",
     recommendations: "The Social Network, The Imitation Game, Dunkirk",
@@ -206,7 +152,6 @@ const MoviePosts = {
     hunch in the movie especially towards the end from the backbreaking oil-drilling he's done, as well as his alcoholism). 
     To end off, TWBB was my first PTA film but I think it was a wonderfully written story; appearing like a simple - 
     even mundane - story about oil at the start, and then justifying its title by the end with an almost poetic beauty.`,
-    rating: "8.5/10",
     trivia:
       "TWBB and No Country for Old Men were shot in the same vicinity. TWBB even disrupted the filming of NCOM due to an explosion on the set of TWBB causing smoke to billow",
     recommendations: "No Country for Old Men",
@@ -218,29 +163,13 @@ const MoviePosts = {
     title:
       "Killers of the Flower Moon (2023) | Martin Scorsese | Lily Gladstone, Leonardo DiCaprio, Robert De Niro",
     quote: "Can you find the wolves in this picture?",
-    thoughts: `The decision by Scorcese to shift the focus of the story from the FBI investigation of a series of Osage murders to the marriage 
-            between Mollie - an Osage woman trapped in the middle of the depravity - and Ernest (Gladstone, DiCaprio) made this movie for me. Not only did this reframe the focus of the movie from 
-            a typical "whodunnit" to the visceral injustice felt by the Osage, but it allowed for the biting portrayal 
-            of Ernest - trapped in between his love for Mollie and the grotesque machinations of his uncle William "King" Hale (De Niro).
-            Three things really elevated the movie for me - the acting, the cinematography, and the screenplay. Acting wise, 
-            Gladstone was phenomenal in eliciting rage and sorrow in the abuse she suffered at the hands of Hale and his 
-            cronies. Even having sparse dialogue, her expressions and body language conveyed a rich tapestry of emotions - an 
-            example being her silent but scathing disappointment in Ernest when he doesn't admit to the truth of poisoning
-            her insulin. DiCaprio meanwhile transforms himself into the simple-minded, meek-mannered character of Ernest; truly earning 
-            praise during the court testimony scene when it breaks him to confess to enabling his uncle's borderline evil 
-            exploits. The cinematography served to remind audiences that this is a historical narration above being 
-            merely a movie, with the blending in of B&W (possibly modern recreated) footage of the Osage people, and 
-            chilling sequences of shots of murdered Osage akin to casket photos. The use of tint was very deliberate in creating
-            different auras in the film - rich and lively for the culturally delightful Osage celebrations, blueing and grey for Hale's 
-            schemes and the court scenes, and orange and red for Mollie's worsening health. Through acting
-            and cinematography alone I can truly appreciate KOTF as a fine example of cinema. Still, there is the 
-            screenplay to praise. It was obvious how much effort Scorcese put into doing justice to the 
-            Osage, while still achieving a nuanced portrayal by telling much of the story from the perspective of 
-            Ernest. Showing Ernest's realisation that he cannot ignorantly support his uncle while also wanting a family with 
-            Mollie was very effective for example, in illustrating how one doesn't dread poison they are enabling
-            until it comes back to corrupt the water they drink. All in all, KOTF is a very finely narrated, heart-wrenching story 
-            that I am glad Scorcese picked up. I've appreciated many movies in the past and while this one isn't 
-            necessarily objectively better than them, I truly felt Scorcese's dedication to cinema with this one.`,
+    thoughts: `The decision by Scorsese to shift the focus of the story from the FBI investigation of a series of Osage murders to the marriage between Mollie - an Osage woman trapped in the middle of the depravity - and Ernest (Gladstone, DiCaprio) made this movie for me. Not only did this reframe the focus of the movie from a typical "whodunnit" to the visceral injustice felt by the Osage, but it allowed for the biting portrayal of Ernest - trapped in between his love for Mollie and the grotesque machinations of his uncle William "King" Hale (De Niro).
+
+    Acting wise, Gladstone was phenomenal in eliciting rage and sorrow in the abuse she suffered at the hands of Hale and his cronies. Even having sparse dialogue, her expressions and body language conveyed a rich tapestry of emotions - an example being her silent but scathing disappointment in Ernest when he doesn't admit to the truth of poisoning her insulin. DiCaprio meanwhile transforms himself into the simple-minded, meek-mannered character of Ernest; truly earning praise during the court testimony scene when it breaks him to confess to shamelessly enabling his uncle's borderline evil exploits against his wife.
+    
+    The cinematography served to remind audiences that this is a historical narration above being merely a movie, with the blending in of B&W (possibly modern recreated) footage of the Osage people, and chilling sequences of shots of murdered Osage akin to casket photos. The use of tint was very deliberate in creating different auras in the film - rich and lively for the culturally delightful Osage celebrations, blueing and grey for Hale's schemes and the court scenes, and orange and red for Mollie's worsening health.
+    
+    Through acting and cinematography alone I can truly appreciate KOTF as a fine example of cinema. Still, there is the screenplay to praise. It was obvious how much effort Scorsese put into doing justice to the Osage, while still achieving a nuanced portrayal by telling much of the story from the perspective of Ernest. Showing Ernest's realisation that he cannot ignorantly support his uncle while also wanting a family with Mollie was very effective for example, in illustrating how one doesn't dread the poison they are enabling until it comes back to corrupt the water they drink. All in all, KOTF is a very finely narrated, heart-wrenching story that I am glad Scorsese picked up. I've appreciated many movies in the past and while this one isn't necessarily objectively better than them, I truly felt Scorsese's dedication to cinema with this one.`,
     trivia:
       "Lily Gladstone was considering a career change before being contacted by Martin Scorsese for the role of Mollie Burkhart",
     recommendations: "Oppenheimer, The Irishman, Memories of Murder",
@@ -281,6 +210,63 @@ const MoviePosts = {
     trivia:
       "Robert Pattinson's Bruce Wayne was heavily based off Kurt Cobain - focusing on reclusivity and a complicated relationship with fame instead of the typical portrayal as a socialite playboy.",
     recommendations: "Se7en, Joker, Zodiac",
+  },
+  SpaceOdyssey: {
+    thumbnail:
+      "https://i.etsystatic.com/12196920/r/il/c543d4/3770685753/il_fullxfull.3770685753_4sjk.jpg",
+    clip: "https://youtu.be/Wy4EfdnMZ5g?feature=shared",
+    name: "2001: a space odyssey",
+    title: "2001: a space odyssey (1968) | Stanley Kubrick",
+    quote: "I think you know what the problem is just as well as I do",
+    thoughts: `"I delayed watching this movie for longer than I should've" - was my first thought after watching it. To begin with, I felt that 2001 had some very effective cinematography; particularly the ones interweaving nature (outer space, planets, etc) with the somewhat crude look of invented technologies (space stations, capsules, etc). Despite being made in 1968, I don't feel that 2001's cinematography is really much behind that of Interstellar (for an example of modern space sci-fi). As such this movie is a quintessential example to justify Stanley Kubrick's nature as a visionary.
+
+    What really sealed the greatness of 2001 for me though was the final 30 minutes; a perfect culmination of every seemingly isolated sequence we silently sat through. Throughout the movie we pick up on the meaning of the esoteric monolith and the consequences of interacting with it but to end off the movie showing instead the result of not interacting with it (that being a restoration of innocence and childlike wonder instead of a fury to conquer and to thrust forward recklessly into the vestiges of the unknown) was incredibly conscientious.
+    
+    My analysis of a movie tends to be mostly for what it is and refrains from the influence of any external context that shaped it (though that is certainly important). In this case however I think it absolutely adds to 2001 that Kubrick reneged on making a space race propaganda film to tell his own tale about the vicious cycle of pursuing innovation for combative and invasive purposes. Brava.
+    `,
+    trivia: `According to Sir Arthur C. Clarke, Stanley Kubrick wanted to get an insurance policy from Lloyds of London to protect himself against losses in the event that extraterrestrial intelligence were discovered before the movie was released. Lloyds refused. Carl Sagan commented, "In the mid-1960s, there was no search being performed for extraterrestrial intelligence, and the chances of accidentally stumbling on extraterrestrial intelligence in a few years' period was extremely small. Lloyds of London missed a good bet."`,
+    recommendations: "Arrival, A.I.",
+  },
+  Birdman: {
+    thumbnail: "https://www.posterhub.com.sg/images/detailed/3/birdman.jpg",
+    clip: "https://youtu.be/y-fQ-xd1whA?feature=shared",
+    name: "Birdman (or 'The Unexpected Virtue of Ignorance')",
+    title:
+      "Birdman (2014) | Alejandro González Iñárritu | Michael Keaton, Edward Norton, Emma Stone",
+    quote: "A thing is a thing. Not what is said of that thing.",
+    thoughts: `Truth be told I only watched this movie because Martin Scor-sees seemed to have held it in high esteem. However, that absolutely made sense to me after watching it.
+
+    I interpreted the movie as fundamentally about a man with a penchant for the visual arts (or maybe just a pathological need for respect?) stuck between a rock and a hard place. His first option: an effortlessly successful CBM actor with no sense of personal identity for himself or among his fans, continually oppressed by his character. His second option: an auteur of theatre with respect from high brow audiences (whom are supposedly more educated on the arts than CBM fans) but with no respect from critics due to his "tainted" origins as a movie star, and a level of required effort that literally drains his blood.
+    
+    While I'm not well-versed enough of the inner contexts of Hollywood to say if the conflict above is an entirely accurate representation for real-life actors, I do think Birdman delivered an intelligent and more-importantly moving commentary through what I felt was a very standout performance from Michael Keaton.
+    
+    There are a multitude of other things to unpack about Birdman that can't be written about in brief (whether this movie was meant to imitate Michael Keaton's life is just one of the possible discussions). However, it is certainly a very well-written story to me with memorable sound design and cinematography and the extended cameos from Edward Norton and Emma Stone were certainly not unnoticed as well.
+    `,
+    trivia: `During the press conference in Riggan's dressing room, he says that he hasn't played Birdman since 1992. That's the same year Batman Returns (1992), the last Batman movie starring Michael Keaton, was released.`,
+    recommendations: "Steve Jobs, Whiplash",
+  },
+  OldBoy: {
+    thumbnail:
+      "https://media-prod.fangoria.com/images/GS_OLD_KEYART_DIGITAL_FIN01.width-800.jpg",
+    clip: "https://youtu.be/VwIIDzrVVdc?feature=shared",
+    name: "OldBoy",
+    title:
+      "OldBoy (2003) | Park Chan-wook | Choi Min-sik, Kang Hye-jung, Yoo Ji-tae",
+    quote: "Laugh and the world laughs with you. Weep and you weep alone.",
+    thoughts: `I generally have a low opinion of movies that use depravity as a cheap vehicle to audience engagement. That's why I, and in fact most people, have a deep distaste of movies like The Human Centipede and A Serbian Film that are just the director's creative exercise in how ****** up of a story they can present. Essentially the director themselves feel more like the antagonist of the story, therefore drawing the ire of audiences.
+
+    However, I think what worked for Oldboy is that despite going down the route of stretching how much it can torture the protagonists, this was still written within and around a well-defined narrative; in this case of revenge and mystery. The weaving in of what would otherwise be empty platitudes like "Ask not why you were imprisoned but why you were set free" and "Be it a rock or a grain of sand, in water they sink the same" to actually underline the plot and themes of the story stood out to me as well. At this juncture I'd also like to argue that that Lee Woo-jin will go down in history as one of the worst (and therefore well-written) antagonists in cinema.
+    
+    Choi Min-silk and Kang Hye-jung's performances were also biting to me, especially when it comes to despair and the crushed hope that precedes it as well as in carrying the demeanour of individuals who are all too aware of pain.
+    
+    However, I still give this movie a 3.5 because why Oh Dae-su was written to forget that Mido is his daughter instead of forgetting their sexual encounters is beyond me. Additionally, while Choi's performance was praiseworthy, I did feel like he was playing a character at times instead of being absorbed into it (something I think Leonardo DiCaprio does extremely well).
+    
+    Nonetheless, this movie will linger on my mind for a while and I am happy never rewatching it. Good job Park.
+    
+    
+    `,
+    trivia: `The main inspiration (outside of the manga that it is based on) for the story is Alexandre Dumas's "The Count of Monte-Cristo". The film makes reference to this title when Woo-Jin talks to Mi-do online.`,
+    recommendations: "Memento, Incendies",
   },
 };
 

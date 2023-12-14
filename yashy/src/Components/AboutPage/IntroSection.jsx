@@ -51,14 +51,17 @@ export default function IntroSection() {
           <ListItem>Casual Interests: Games, Music, Driving, Film</ListItem>
           <ListItem>Competitive Interests: Debate & Oratory</ListItem>
         </List>
-        <u>Current Engagements (Fall Semester 23/24):</u>
+        <u>What am I doing now (December '23):</u>
         <List>
-          <ListItem>Product Head @NUS Google Developer Student Clubs</ListItem>
-          <ListItem>UI/UX Designer @NUS Fintech Society</ListItem>
-          <ListItem>Programming Methodology II (Java)</ListItem>
-          <ListItem>Intro to Networks (Python)</ListItem>
-          <ListItem>Database Systems (PostgreSQL)</ListItem>
-          <ListItem>Digital Ethics</ListItem>
+          <ListItem>Frontend Developer in NUSC IEX Project</ListItem>
+          <ListItem>
+            Getting through my&nbsp;
+            <a href="https://boxd.it/qkwxQ">priority watchlist</a>
+          </ListItem>
+          <ListItem>UI/UX Designer @ NUS Fintech Society</ListItem>
+          <ListItem>
+            Reading up for Operating Systems, Linear Algebra II
+          </ListItem>
         </List>
         <Paper
           sx={{
