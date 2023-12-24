@@ -1,11 +1,11 @@
 import { Card, Paper, List, ListItem, Grid } from "@mui/material";
-import { BugReport } from "@mui/icons-material";
+import { GitHub } from "@mui/icons-material";
 
-export default function ProjectCardFintech({
+export default function ProjectCardLADDY({
   projectImg,
   projectTitle,
   projectSummary,
-  testLink,
+  projectCode,
 }) {
   return (
     <Card
@@ -31,21 +31,17 @@ export default function ProjectCardFintech({
       <Grid container spacing={2}>
         <Grid item xs={12} sm={6}>
           <List>
-            <u>Highlighted Features</u>
-            <ListItem>Both member and admin-only views,</ListItem>
-            <ListItem>
-              Static clicking and Dynamic drag-and-drop versions,
-            </ListItem>
-            <ListItem>Mobile-view designed as well</ListItem>
+            <u>My contributions</u>
+            <ListItem>Figma translation to frontend,</ListItem>
+            <ListItem>User authentication (3rd party and NUS-auth),</ListItem>
+            <ListItem>DBMS</ListItem>
           </List>
           <List>
             <u>References</u>
             <ListItem>
-              <BugReport sx={{ color: "red" }} />
+              <GitHub sx={{ color: "red" }} />
               &nbsp;
-              <a href={testLink} title="Try out ARIA">
-                Check it out
-              </a>
+              <a title="Codebase">Frontend, DB, and Auth repostitory</a>
             </ListItem>
           </List>
         </Grid>

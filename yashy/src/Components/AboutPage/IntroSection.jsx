@@ -5,6 +5,7 @@ import {
   Email,
   Instagram,
   Telegram,
+  Movie,
 } from "@mui/icons-material";
 import me from "../../me.JPG";
 
@@ -93,6 +94,9 @@ export default function IntroSection() {
             </a>
             <a href="https://t.me/yashypola" title="Yashwit's Telegram">
               <Telegram sx={{ color: "#0088cc" }} />
+            </a>
+            <a href="https://boxd.it/7HLmD" title="Yashwit's Letterboxd">
+              <Movie sx={{ color: "orange" }} />
             </a>
           </Stack>
         </Paper>

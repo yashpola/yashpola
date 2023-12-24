@@ -12,6 +12,7 @@ const MoviePosts = {
     Another aspect of this movie that truly elevates it, is attention to detail. How many movies do we watch that invent miracles out of faulty logic to protect their protagonists? In this one though, Michael Fassbender's Lt. Wicox and a couple of the other Basterds die because Wicox blew his cover from not knowing the German way to sign 3 (use thumbs!). Lt. Raine and Pt. Utevich (BJ Novak) get captured because Col. Landa called their absurd bluff of being Italian in origin. Even something as basic as a movie being based in Nazi-Occupied France having 70% of its dialog in German and French signals so much more depth of characterization in a war movie.
     
     Sure, war movies could be great even through just giving voices to the protagonists, and dehumanizing the enemy. But the catharsis of anti-Nazi revenge is that much sweeter when the Nazis have meaningful speaking roles and characters, and we then see every bit of light in their life evaporate. For a closing thought, in the lasting words of Lt. Aldo Raine: 'Bonjyuur-no'`,
+    rating: "4.5",
     trivia: `Tarantino almost did not go through with this movie due to not finding a German-speaking actor who 
     could also pull off the role of Hans Landa. Fortunately he found one in the form of Christoph Waltz (who could 
     also speak French fluently), who then won an Oscar for the role.`,
@@ -28,6 +29,7 @@ const MoviePosts = {
     thoughts: `I did not know going into this movie that it was about police corruption. However, this worked brilliantly because as the events unfolded, I shared Officer Jake Hoyt's (Ethan Hawke) rising sense of suspicion and horror towards his bent training officer Det. Alonzo Harris (Denzel Washington). Apropos of that, Washington delivered an effortlessly slick performance as usual, easing gracefully into the role of a corrupt detective who commands attention, but is really a yard bully who deserves only to have his gross facade blown wide open. The rookie-veteran chemistry between Hawke and Washington was of the essence to the success of the movie, with both actors playing their characters off each other in a truly enjoyable fashion.
 
     Bottom-line: a very enjoyable movie and one of the greats to me in terms of performance and tension.`,
+    rating: "3.5",
     trivia:
       "Tobey Maguire, Mark Wahlberg, and Eminem were also considered for the role of Jake Hoyt",
     recommendations: "Heat, L.A. Confidential, American Gangster",
@@ -63,6 +65,7 @@ const MoviePosts = {
                criticized NCFOM as pointless and self-indulgent, but I think it is a movie driven very strongly by its choices in writing and direction
                to deliver a certain message and does so successfully. 
                `,
+    rating: "4.5",
     trivia: `According to a January 2018 article in Business Insider, a group of psychiatrists studied 400 movies and identified 
     126 psychopathic characters. They chose Javier Bardem's portrayal of Anton Chigurh as the most clinically accurate portrayal of a 
     psychopath.`,
@@ -70,7 +73,7 @@ const MoviePosts = {
   },
   Oppenheimer: {
     thumbnail:
-      "https://posterspy.com/wp-content/uploads/2022/08/oppenherimer_web.jpg",
+      "https://cinephilecorner.com/wp-content/uploads/2023/07/Oppenheimer-2023-683x1024.png",
     clip: "",
     name: "Oppenheimer",
     title:
@@ -84,6 +87,7 @@ const MoviePosts = {
     The second thing I liked, was that the dialogue in Oppenheimer packs a lot of wit into sharply-delivered, almost cutting exchanges between characters. It reminded me of a typical David Fincher and/or Aaron Sorkin film (A Few Good Men, Fight Club). I found myself genuinely immersing myself in the marriage of the crisp dialogue and the actors selling them with their full determination. Apart from the visuals, the smooth dialogue really buttered the explanation of the science underlying the story.
     
     I went into this movie with tempered expectations; expecting something minimally good out of a Nolan movie but hoping not to be disappointed. Fortunately, the movie easily overdelivered - selling me on it in the first 20 minutes. Oppenheimer felt like a time machine sucking me in after the first act and keeping me hooked through the 3 hours till the credits.`,
+    rating: "4",
     trivia:
       "J. Robert Oppenheimer was mentioned by name in Nolan's previous film Tenet (2020) during a conversation between Priya Singh (Dimple Kapadia) and The Protagonist (John David Washington), seemingly indicating that Nolan already had the idea of what his next film was going to be about.",
     recommendations: "The Social Network, The Imitation Game, Dunkirk",
@@ -120,6 +124,7 @@ const MoviePosts = {
                and accelerated into an experience that I found quintessentially tense, and which I was left in awe after
                dismounting. 
                `,
+    rating: "5",
     trivia:
       "The score of Sicario was inspired from Jaws (1975), to exude ominous and sinister themes",
     recommendations: "Prisoners, Incendies, Argo",
@@ -152,6 +157,7 @@ const MoviePosts = {
     hunch in the movie especially towards the end from the backbreaking oil-drilling he's done, as well as his alcoholism). 
     To end off, TWBB was my first PTA film but I think it was a wonderfully written story; appearing like a simple - 
     even mundane - story about oil at the start, and then justifying its title by the end with an almost poetic beauty.`,
+    rating: "4.5",
     trivia:
       "TWBB and No Country for Old Men were shot in the same vicinity. TWBB even disrupted the filming of NCOM due to an explosion on the set of TWBB causing smoke to billow",
     recommendations: "No Country for Old Men",
@@ -170,6 +176,7 @@ const MoviePosts = {
     The cinematography served to remind audiences that this is a historical narration above being merely a movie, with the blending in of B&W (possibly modern recreated) footage of the Osage people, and chilling sequences of shots of murdered Osage akin to casket photos. The use of tint was very deliberate in creating different auras in the film - rich and lively for the culturally delightful Osage celebrations, blueing and grey for Hale's schemes and the court scenes, and orange and red for Mollie's worsening health.
     
     Through acting and cinematography alone I can truly appreciate KOTF as a fine example of cinema. Still, there is the screenplay to praise. It was obvious how much effort Scorsese put into doing justice to the Osage, while still achieving a nuanced portrayal by telling much of the story from the perspective of Ernest. Showing Ernest's realisation that he cannot ignorantly support his uncle while also wanting a family with Mollie was very effective for example, in illustrating how one doesn't dread the poison they are enabling until it comes back to corrupt the water they drink. All in all, KOTF is a very finely narrated, heart-wrenching story that I am glad Scorsese picked up. I've appreciated many movies in the past and while this one isn't necessarily objectively better than them, I truly felt Scorsese's dedication to cinema with this one.`,
+    rating: "4.5",
     trivia:
       "Lily Gladstone was considering a career change before being contacted by Martin Scorsese for the role of Mollie Burkhart",
     recommendations: "Oppenheimer, The Irishman, Memories of Murder",
@@ -207,6 +214,7 @@ const MoviePosts = {
                movie tackles larger, more realistic issues - then TDK would be the clear option for you. Ultimately, I 
                think both movies are brilliant and for The Batman specifically, 3 hours was barely enough for me to let
                the technical and creative talent put into this movie soak in.`,
+    rating: "4.5",
     trivia:
       "Robert Pattinson's Bruce Wayne was heavily based off Kurt Cobain - focusing on reclusivity and a complicated relationship with fame instead of the typical portrayal as a socialite playboy.",
     recommendations: "Se7en, Joker, Zodiac",
@@ -225,6 +233,7 @@ const MoviePosts = {
     My analysis of a movie tends to be mostly for what it is and refrains from the influence of any external context that shaped it (though that is certainly important). In this case however I think it absolutely adds to 2001 that Kubrick reneged on making a space race propaganda film to tell his own tale about the vicious cycle of pursuing innovation for combative and invasive purposes. Brava.
     `,
     trivia: `According to Sir Arthur C. Clarke, Stanley Kubrick wanted to get an insurance policy from Lloyds of London to protect himself against losses in the event that extraterrestrial intelligence were discovered before the movie was released. Lloyds refused. Carl Sagan commented, "In the mid-1960s, there was no search being performed for extraterrestrial intelligence, and the chances of accidentally stumbling on extraterrestrial intelligence in a few years' period was extremely small. Lloyds of London missed a good bet."`,
+    rating: "5",
     recommendations: "Arrival, A.I.",
   },
   Birdman: {
@@ -243,6 +252,7 @@ const MoviePosts = {
     There are a multitude of other things to unpack about Birdman that can't be written about in brief (whether this movie was meant to imitate Michael Keaton's life is just one of the possible discussions). However, it is certainly a very well-written story to me with memorable sound design and cinematography and the extended cameos from Edward Norton and Emma Stone were certainly not unnoticed as well.
     `,
     trivia: `During the press conference in Riggan's dressing room, he says that he hasn't played Birdman since 1992. That's the same year Batman Returns (1992), the last Batman movie starring Michael Keaton, was released.`,
+    rating: "4.5",
     recommendations: "Steve Jobs, Whiplash",
   },
   OldBoy: {
@@ -266,6 +276,7 @@ const MoviePosts = {
     
     `,
     trivia: `The main inspiration (outside of the manga that it is based on) for the story is Alexandre Dumas's "The Count of Monte-Cristo". The film makes reference to this title when Woo-Jin talks to Mi-do online.`,
+    rating: "4.5",
     recommendations: "Memento, Incendies",
   },
 };

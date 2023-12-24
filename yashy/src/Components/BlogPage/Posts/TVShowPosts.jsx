@@ -51,14 +51,24 @@ const MoviePosts = {
             to "POV" from, and I feel it wins because it trusts its slow-burn character development enough to entertain viewers without 
             needing theatrics. And of course, the ad pitches in this show done by Don Draper are reason enough to watch the show. If you 
             liked Mad Men, I'd like to buy you a coke.`,
-    rating: "9/10",
+    rating: "10/10",
     trivia:
       "John Slattery was slated to play Don Draper before being casted for the character of Roger Sterling instead",
     recommendations: "Better Call Saul, Succession, The Sopranos",
   },
-  BreakingBad: {
+  BojackHorseman: {
+    thumbnail:
+      "https://m.media-amazon.com/images/M/MV5BYWQwMDNkM2MtODU4OS00OTY3LTgwOTItNjE2Yzc0MzRkMDllXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+    name: "Bojack Horseman",
     title:
-      "Breaking Bad (2008) | Vince Gilligan, Peter Gould | Bryan Cranston, Aaron Paul, Anna Gunn",
+      "Bojack Horseman (2014) | Raphael Bob-Waksberg | Will Arnett, Alison Brie",
+    quote:
+      "It seems you've found some solace in our show. Stick around. In 30 minutes, we start over!",
+    thoughts: "",
+    rating: "10/10",
+    trivia:
+      "Whenever real-life entertainment figures are featured on the show, usually in animal form, they are asked to voice their alter egos. According to Raphael Bob-Waksberg, those who are not voiced by themselves often become meaner and suffer cruel fates",
+    recommendations: "Mad Men, Rick and Morty",
   },
 };
 

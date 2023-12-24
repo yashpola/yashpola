@@ -63,6 +63,9 @@ export default function CurrentReviewCard({
               {thoughts}
               <br />
               <br />
+              Verdict: <br /> {rating}/5
+              <br />
+              <br />
               Trivia: <br /> {trivia}
               <br />
               <br />

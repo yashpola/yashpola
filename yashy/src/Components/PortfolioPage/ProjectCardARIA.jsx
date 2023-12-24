@@ -1,7 +1,7 @@
 import { Card, Paper, List, ListItem, Grid } from "@mui/material";
 import { Article, BugReport, OndemandVideo, GitHub } from "@mui/icons-material";
 
-export default function ProjectCard({
+export default function ProjectCardARIA({
   projectImg,
   projectTitle,
   projectSummary,
