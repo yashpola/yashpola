@@ -51,8 +51,8 @@ export default function DefaultBlogPage() {
             }}
             elevation={0}
           >
-            I document my brief thoughts here on the movies and tv shows I've
-            watched. Click to view either
+            I document my rambles here on the movies and tv shows I've watched.
+            Click to view either
             <button className="blog-page-links" onClick={showMovieThoughts}>
               movie
             </button>

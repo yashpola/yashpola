@@ -15,22 +15,29 @@ import { useState } from "react";
 
 export default function TVShowThoughts({ backToDefault, showMovieThoughts }) {
   const [open, setOpen] = useState(false);
+  const [recencyOptions, setRecencyOptions] = useState(false);
   const [ratingOptions, setRatingOptions] = useState(false);
   const [yearOptions, setYearOptions] = useState(false);
-  const [sortByHighestRating, setSortByHighestRating] = useState(true);
+  const [sortByEarliestReview, setSortByEarliestReview] = useState(false);
+  const [sortByLatestReview, setSortByLatestReview] = useState(true);
+  const [sortByHighestRating, setSortByHighestRating] = useState(false);
   const [sortByLowestRating, setSortByLowesttRating] = useState(false);
-  const [sortByEarliest, setSortByEarliest] = useState(false);
-  const [sortByLatest, setSortByLatest] = useState(false);
+  const [sortByEarliestYear, setSortByEarliestYear] = useState(false);
+  const [sortByLatestYear, setSortByLatestYear] = useState(false);
 
   function sorter(review1, review2) {
     if (sortByHighestRating) {
       return review2.props.rating - review1.props.rating;
     } else if (sortByLowestRating) {
       return review1.props.rating - review2.props.rating;
-    } else if (sortByEarliest) {
+    } else if (sortByEarliestYear) {
       return review1.props.year - review2.props.year;
-    } else if (sortByLatest) {
+    } else if (sortByLatestYear) {
       return review2.props.year - review1.props.year;
+    } else if (sortByEarliestReview) {
+      return review1.props.order - review2.props.order;
+    } else if (sortByLatestReview) {
+      return review2.props.order - review1.props.order;
     }
   }
   function handleClose(e) {
@@ -39,12 +46,77 @@ export default function TVShowThoughts({ backToDefault, showMovieThoughts }) {
   }
   function handleOpen(e) {
     e.preventDefault();
+    setRecencyOptions(false);
     setRatingOptions(false);
     setYearOptions(false);
     setOpen(true);
   }
 
   const sortingOptions = [
+    <>
+      <Button
+        style={{
+          color: "white",
+          textDecoration: recencyOptions ? "underline" : "none",
+          display: "flex",
+          justifyContent: "left",
+        }}
+        onClick={(e) => {
+          e.preventDefault();
+          setRecencyOptions(!recencyOptions);
+        }}
+        // endIcon={<CalendarMonth />}
+      >
+        Recency
+      </Button>
+      {recencyOptions && (
+        <List>
+          <ListItem>
+            <Button
+              style={{
+                color: "white",
+                display: "flex",
+                justifyContent: "left",
+              }}
+              onClick={(e) => {
+                e.preventDefault();
+                setSortByEarliestReview(true);
+                setSortByLatestReview(false);
+                setSortByHighestRating(false);
+                setSortByLowesttRating(false);
+                setSortByEarliestYear(false);
+                setSortByLatestYear(false);
+                handleClose(e);
+              }}
+            >
+              Earliest first
+            </Button>
+          </ListItem>
+          <ListItem>
+            <Button
+              style={{
+                color: "white",
+                display: "flex",
+                justifyContent: "left",
+              }}
+              onClick={(e) => {
+                e.preventDefault();
+                setSortByEarliestReview(false);
+                setSortByLatestReview(true);
+                setSortByHighestRating(false);
+                setSortByLowesttRating(false);
+                setSortByEarliestYear(false);
+                setSortByLatestYear(false);
+                handleClose(e);
+              }}
+            >
+              Latest first
+            </Button>
+          </ListItem>
+        </List>
+      )}
+    </>,
+    <Divider sx={{ borderColor: "white" }} />,
     <>
       <Button
         // variant="outlined"
@@ -131,8 +203,8 @@ export default function TVShowThoughts({ backToDefault, showMovieThoughts }) {
                 e.preventDefault();
                 setSortByHighestRating(false);
                 setSortByLowesttRating(false);
-                setSortByEarliest(true);
-                setSortByLatest(false);
+                setSortByEarliestYear(true);
+                setSortByLatestYear(false);
                 handleClose(e);
               }}
             >
@@ -150,8 +222,8 @@ export default function TVShowThoughts({ backToDefault, showMovieThoughts }) {
                 e.preventDefault();
                 setSortByHighestRating(false);
                 setSortByLowesttRating(false);
-                setSortByEarliest(false);
-                setSortByLatest(true);
+                setSortByEarliestYear(false);
+                setSortByLatestYear(true);
                 handleClose(e);
               }}
             >
@@ -176,6 +248,8 @@ export default function TVShowThoughts({ backToDefault, showMovieThoughts }) {
   const tvReviews = [
     <CurrentReviewCard {...TVShowPosts.Suits} />,
     <CurrentReviewCard {...TVShowPosts.MadMen} />,
+    <CurrentReviewCard {...TVShowPosts.BojackHorseman} />,
+    <CurrentReviewCard {...TVShowPosts.Mindhunter} />,
   ];
 
   return (
