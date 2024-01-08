@@ -312,6 +312,45 @@ const MoviePosts = {
     rating: 4,
     recommendations: "Memento, Incendies",
   },
+  Casino: {
+    order: 12,
+    thumbnail:
+      "https://i.pinimg.com/originals/9a/1b/03/9a1b03f00d03a6694989e9a905bdde06.jpg",
+    clip: "https://youtu.be/ZxJVaQTWQ24?feature=shared",
+    name: "Casino",
+    year: 1995,
+    boxOffice: 116100000,
+    title:
+      "Casino (1995) | Martin Scorsese | Robert De Niro, Sharon Stone, Joe Pesci",
+    quote:
+      "If he hadn't been so greedy, he'd've been tougher to spot. But in the end they're all greedy.",
+    thoughts: `This movie felt like the transition between Goodfellas and The Wolf of Wall Street both in terms of story and visuals. In a sense the character of Sam Rothstein was nothing but anxious to me for the whole duration about not crossing his wires between the gruesome crime that kept the business running and the (shady) business that he was good at flourishing. That's squarely in the middle of Goodfellas' Henry Hill (mostly all violent crime) and Wolf's Jordan Belfort (mostly all shady business) to me. And this is interesting because it speaks to me about Scorsese's challenges and motivation when making this movie (of course he would not have conceived of Wolf yet at the time but Casino was still already moving away from pure gangsterism). 
+
+    In fact Rothstein never wanted to explicitly partake in the embezzlement underway and was happy simply being the "legitimate" boss-man (but he wouldn't exactly say that!) of the casino. What stands out to me is the difference in the tone of the portrayal of Rothstein's ending versus Frank Sheeran's (The Irishman) ending. Both were men who were happy to be complicit in destructive business but never wanted more power than they felt safe handling and frankly always seemed anxious of becoming the next victim of the gangsterism they were peddling. Except Rothstein's ending seemed portrayed much more positively to me with less emphasis on ending up "right back where (he) started" as a bad thing and more of it as a 2nd chance at living a quiet life of personal success. Meanwhile Sheeran seemed to acknowledge the soiled bed he made for himself that he had to lie in and was much less honest to himself about his deeds. 
+    
+    If I consider all 4 movies together (Goodfellas, Casino, Wolf, The Irishman), it seems to me an attempted stitching together of men who had lesser and lesser of a hand in the actions they were committing with more emphasis on profiting off nasty business, and taking advantage of the trust of people. This is important to me because it goes for the throat of audiences who foolishly idolise Scorsese's protagonists (because being a true-blue gangster is fun and being anxiously, cowardly complicit throughout with a slap in the face at the end is not so fun). All that being said, a movie as stylish and fun to watch as Goodfellas (a perpetually cigarette-holding De Niro in pastel was simply inspired to me)`,
+    trivia:
+      "Most of the conversations between Robert De Niro and Joe Pesci were improvised. Martin Scorsese would tell them where to start and where to end. The rest was up to them.",
+    rating: 4.5,
+    recommendations: "Goodfellas, The Wolf of Wall Street, The Irishman",
+  },
+  TheAviator: {
+    order: 13,
+    thumbnail:
+      "https://www.limitedruns.com/media/cache/61/a7/61a72aa728be49319fa18ac68a3ab936.jpg",
+    clip: "https://youtu.be/2fXF8G50BPQ?feature=shared",
+    name: "The Aviator",
+    year: 2004,
+    boxOffice: 213700000,
+    title:
+      "The Aviator (2004) | Martin Scorsese | Leonardo DiCaprio, Cate Blanchett, Kate Beckinsale",
+    quote: "The way of the future",
+    thoughts: `This was a fairly long movie with a fairly soft story, and the combination of these two features may position The Aviator as one of Scorsese's weaker films but Leo and Cate's performances (especially Leo in the 2nd half with the portrayal of Hughes' OCD) elevate it to a 4/5 for me. In fact the story was not weak at all (just relatively uneventful) - being an interesting foray into a gunslinger's life - and the color palette (very pastel-y if that's what its called) and sound design (surprisingly ominous and 2001-ish?) did stand out to me.`,
+    trivia:
+      "Martin Scorsese said he spent $500,000 of his own money to cover over-budget expenses because Miramax and Warner Bros. cut off funding.",
+    rating: "4/5",
+    recommendations: "The Founder, Steve Jobs",
+  },
 };
 
 export default MoviePosts;

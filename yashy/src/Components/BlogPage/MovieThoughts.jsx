@@ -8,7 +8,7 @@ import {
   List,
   ListItem,
 } from "@mui/material";
-import { Home, ImportExport, LiveTv } from "@mui/icons-material";
+import { Home, ImportExport, LiveTv, Movie } from "@mui/icons-material";
 import CurrentReviewCard from "./CurrentReviewCard";
 import MoviePosts from "./Posts/MoviePosts";
 import React, { useState } from "react";
@@ -357,6 +357,8 @@ export default function MovieThoughts({ backToDefault, showTVThoughts }) {
     <CurrentReviewCard {...MoviePosts.Birdman} />,
     <CurrentReviewCard {...MoviePosts.TrainingDay} />,
     <CurrentReviewCard {...MoviePosts.OldBoy} />,
+    <CurrentReviewCard {...MoviePosts.Casino} />,
+    <CurrentReviewCard {...MoviePosts.TheAviator} />,
   ];
 
   return (
