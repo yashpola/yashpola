@@ -312,8 +312,28 @@ const MoviePosts = {
     rating: 4,
     recommendations: "Memento, Incendies",
   },
-  Casino: {
+  Goodfellas: {
     order: 12,
+    thumbnail:
+      "https://images.squarespace-cdn.com/content/v1/5e7a8f6d95bc3643e73bc2e8/1587248432903-ORH0WRD2G8QNAZLG8VAK/goodfellas.png?format=2500w",
+    clip: "https://youtu.be/yL9rSwrsMHw?feature=shared",
+    name: "Goodfellas",
+    year: 1990,
+    boxOffice: 47000000,
+    title:
+      "Goodfellas (1990) | Martin Scorsese | Ray Liotta, Robert De Niro, Joe Pesci",
+    quote: "As far back as I can remember I always wanted to be a gangster.",
+    thoughts: `Why I felt Goodfellas is a better version of WOWS: Firstly, I'm a sucker for performances and the ensemble of De Niro, Pesci and Liotta felt a whole lot more enthralling to me than Wolf which I felt was essentially the Leo show (a pity Liotta's not worked with Scorsese again since then). Whether it's Pesci nailing the vibe of an actual lunatic (along with being a really funny guy), De Niro effortlessly delivering the ever-so-insecure and hungry-for-control mobster, or Liotta taking us through his character's mental and physical breakdown as his actions catch up with him, there's always something bold and satisfying to witness. 
+    .Secondly, There was more performance and participation from Karen/Bracco than Naomi/Robbie and while this is obviously limited by the real-life story both films are adapted from, it still makes Goodfellas a more well-rounded film to me. The scene where Karen pleads that the cops would've found the cocaine much to Henry's explosive disdain was pinching to see.
+    .Thirdly, The depiction of Henry's downfall was better to me than Jordan's. The sequence towards the end where Henry describes his quite anxiety-ridden day of "business" and domestic duties all while being stalked by a helicopter does a lot to completely dunk on the supposedly carefree and "non-schmuck" lifestyle of a gangster. Wolf does this too and maybe for a longer duration (the entire third act?) but I feel with sequences that are meant to raise anxiety, less is more and Goodfellas just did it better.
+    .Lastly, This may be a more controversial point but I just felt overall that Goodfellas had more style and substance than Wolf which relied a lot more on pushing the envelope with how much debauchery it can show to audiences. Obviously Marty doesn't go by shock value but I did get more of that vibe from Wolf than Goodfellas, which relied more on performance (subtle expressions, hollow laughter, distrusting eyes) to create an unsettling and unbelievable atmosphere. There's something to be said here though about violence (which Goodfellas had a lot of and Wolf had almost none of) feeling less uncomfortable to see than sex (which Wolf had a lot of and Goodfellas had almost none of), even if both can be vehicles for depravity.`,
+    trivia:
+      "The 'How am I funny?' scene is based on something that actually happened to Joe Pesci. While working in a restaurant, a young Pesci apparently told a mobster that he was funny, a compliment that was met with a less-than-enthusiastic response. Pesci relayed the anecdote to Martin Scorsese, who decided to include it in the film. Scorsese didn't include the scene in the shooting script, so that Pesci and Ray Liotta's interactions would elicit genuinely surprised reactions from the supporting cast.",
+    rating: 4.5,
+    recommendations: "Casino, The Wolf of Wall Street, The Irishman",
+  },
+  Casino: {
+    order: 13,
     thumbnail:
       "https://i.pinimg.com/originals/9a/1b/03/9a1b03f00d03a6694989e9a905bdde06.jpg",
     clip: "https://youtu.be/ZxJVaQTWQ24?feature=shared",
@@ -335,7 +355,7 @@ const MoviePosts = {
     recommendations: "Goodfellas, The Wolf of Wall Street, The Irishman",
   },
   TheAviator: {
-    order: 13,
+    order: 14,
     thumbnail:
       "https://www.limitedruns.com/media/cache/61/a7/61a72aa728be49319fa18ac68a3ab936.jpg",
     clip: "https://youtu.be/2fXF8G50BPQ?feature=shared",
@@ -348,7 +368,7 @@ const MoviePosts = {
     thoughts: `This was a fairly long movie with a fairly soft story, and the combination of these two features may position The Aviator as one of Scorsese's weaker films but Leo and Cate's performances (especially Leo in the 2nd half with the portrayal of Hughes' OCD) elevate it to a 4/5 for me. In fact the story was not weak at all (just relatively uneventful) - being an interesting foray into a gunslinger's life - and the color palette (very pastel-y if that's what its called) and sound design (surprisingly ominous and 2001-ish?) did stand out to me.`,
     trivia:
       "Martin Scorsese said he spent $500,000 of his own money to cover over-budget expenses because Miramax and Warner Bros. cut off funding.",
-    rating: "4/5",
+    rating: 4,
     recommendations: "The Founder, Steve Jobs",
   },
 };
