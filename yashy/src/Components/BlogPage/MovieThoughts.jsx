@@ -20,8 +20,8 @@ export default function MovieThoughts({ backToDefault, showTVThoughts }) {
   const [yearOptions, setYearOptions] = useState(false);
   const [boxOfficeOptions, setBoxOfficeOptions] = useState(false);
   const [sortByEarliestReview, setSortByEarliestReview] = useState(false);
-  const [sortByLatestReview, setSortByLatestReview] = useState(false);
-  const [sortByHighestRating, setSortByHighestRating] = useState(true);
+  const [sortByLatestReview, setSortByLatestReview] = useState(true);
+  const [sortByHighestRating, setSortByHighestRating] = useState(false);
   const [sortByLowestRating, setSortByLowesttRating] = useState(false);
   const [sortByEarliestYear, setSortByEarliestYear] = useState(false);
   const [sortByLatestYear, setSortByLatestYear] = useState(false);
