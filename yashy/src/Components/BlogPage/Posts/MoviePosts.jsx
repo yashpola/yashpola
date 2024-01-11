@@ -366,10 +366,10 @@ const MoviePosts = {
     title:
       "The Aviator (2004) | Martin Scorsese | Leonardo DiCaprio, Cate Blanchett, Kate Beckinsale",
     quote: "The way of the future",
-    thoughts: `This was a fairly long movie with a fairly soft story, and the combination of these two features may position The Aviator as one of Scorsese's weaker films but Leo and Cate's performances (especially Leo in the 2nd half with the portrayal of Hughes' OCD) elevate it to a 4/5 for me. In fact the story was not weak at all (just relatively uneventful) - being an interesting foray into a gunslinger's life - and the color palette (very pastel-y if that's what its called) and sound design (surprisingly ominous and 2001-ish?) did stand out to me.`,
+    thoughts: `This was a fairly long movie with a fairly soft story, and the combination of these two features may position The Aviator as one of Scorsese's weaker films but Leo and Cate's performances (especially Leo in the 2nd half with the portrayal of Hughes' OCD) elevate it for me. In fact the story was not weak at all (just relatively uneventful) - being an interesting foray into a gunslinger's life - and the color palette (very pastel-y if that's what its called) and sound design (surprisingly ominous and 2001-ish?) did stand out.`,
     trivia:
       "Martin Scorsese said he spent $500,000 of his own money to cover over-budget expenses because Miramax and Warner Bros. cut off funding.",
-    rating: 4,
+    rating: 3.5,
     recommendations: "The Founder, Steve Jobs",
   },
   GONY: {
