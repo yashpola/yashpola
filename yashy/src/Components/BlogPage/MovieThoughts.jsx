@@ -360,6 +360,7 @@ export default function MovieThoughts({ backToDefault, showTVThoughts }) {
     <CurrentReviewCard {...MoviePosts.Casino} />,
     <CurrentReviewCard {...MoviePosts.TheAviator} />,
     <CurrentReviewCard {...MoviePosts.Goodfellas} />,
+    <CurrentReviewCard {...MoviePosts.GONY} />,
   ];
 
   return (

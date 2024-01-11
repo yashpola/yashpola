@@ -372,6 +372,28 @@ const MoviePosts = {
     rating: 4,
     recommendations: "The Founder, Steve Jobs",
   },
+  GONY: {
+    order: 15,
+    thumbnail:
+      "https://mondoshop.com/cdn/shop/products/Bermejo_GONY_Sm.jpg?v=1654718224",
+    clip: "https://youtu.be/ADmX9eMEV9U?feature=shared",
+    name: "Gangs of New York",
+    year: 2002,
+    boxOffice: 193800000,
+    title:
+      "Gangs of New York (2002) | Martin Scorsese | Daniel Day-Lewis, Leonardo DiCaprio, Cameron Diaz",
+    quote:
+      "It's a funny feeling being taken under the wing of a dragon. It's warmer than you'd think.",
+    thoughts: `I think the problem with GONY was that it didn't go hard enough on any of the interesting threads it used. It was neither a no-holds-barred satisfying revenge story nor an elaborate sociopolitical examination of 1800s New York nor an in-depth slow-burn character study exploring the interplay of xenophobia, class warfare, toxic masculinity and more.
+               I appreciate the experimental (for Scorsese) nature of GONY, its design (the costumes - especially for Bill Cutter, set pieces and soundtrack did liven things up) but the movie simply lacked an appeal which I could hold onto for longer than 10 minutes at a time. 
+               The performances were also not a lot to write home about (which is where The Aviator, for example, won out for me even with a similarly slow story). Even Daniel Day-Lewis' entrancing portrayal of a mad and violent but surprisingly introspective working man felt less sincere put next to There Will Be Blood (which I couldn't help thinking about in comparison). 
+               Still, GONY's issues only standout to me because of how much better Scorsese's other films are (which makes me think of the potential GONY had), but it is by no means a less-than-good movie.`,
+    trivia:
+      "Martin Scorsese recreated 19th-century New York on the lot of Cinecitta studios in Rome. When George Lucas visited the massive set, he reportedly turned to Scorsese and said, `Sets like that can be done with computers now.`",
+    rating: 3,
+    recommendations:
+      "Once Upon a Time in America, There Will Be Blood, Django Unchained",
+  },
 };
 
 export default MoviePosts;
