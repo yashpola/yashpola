@@ -83,7 +83,7 @@ const MoviePosts = {
   Oppenheimer: {
     order: 4,
     thumbnail:
-      "https://cinephilecorner.com/wp-content/uploads/2023/07/Oppenheimer-2023-683x1024.png",
+      "https://www.posterhub.com.sg/images/detailed/142/111896_Oppenheimer_Teaser_B.jpg",
     clip: "https://youtu.be/5_pvXW32RuQ?feature=shared",
     name: "Oppenheimer",
     year: 2023,

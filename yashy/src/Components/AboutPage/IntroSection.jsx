@@ -49,10 +49,10 @@ export default function IntroSection() {
         <br />
         <u>Tidbits</u>:
         <List>
-          <ListItem>Casual Interests: Games, Music, Driving, Film</ListItem>
+          <ListItem>Casual Interests: Film, Games, Music, Driving</ListItem>
           <ListItem>Competitive Interests: Debate & Oratory</ListItem>
         </List>
-        <u>What am I doing now (Spring '24):</u>
+        <u>What I am doing now (Spring '24):</u>
         <List>
           <br />
           Courses:
@@ -60,7 +60,6 @@ export default function IntroSection() {
             <List>
               <ListItem>Software Engineering</ListItem>
               <ListItem>Operating Systems</ListItem>
-              <ListItem>Linear Algebra II</ListItem>
               <ListItem>Probability and Statistics</ListItem>
               <ListItem>Design and Analysis of Algorithms</ListItem>
               <ListItem>
@@ -68,9 +67,6 @@ export default function IntroSection() {
               </ListItem>
             </List>
           </ListItem>
-          <ListItem>Frontend Developer in NUSC IEX Project</ListItem>
-          <ListItem>UI/UX Designer @ NUS Fintech Society</ListItem>
-          <ListItem>Product Lead @ NUS Developer Student Club</ListItem>
         </List>
         <Paper
           sx={{
